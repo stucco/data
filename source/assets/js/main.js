@@ -15,18 +15,22 @@
         '<tr>'
       + '<td><a href="' + infoUrl + '">' + name + '</a></td>'
       + '<td>' + type + '</td>'
-      + '<td>' + url + '</td>'
-      + '<td>' + desc + '</td>'
+      + '<td>' + desc + '<br><strong>URL:</strong> <a href="' + url + '">' + url + '</a></td>'
       + '<td>' + categories.toString() + '</td>'
       + '</tr>';
     return row;
   }
 
+  $.getJSON('data/endogenous.json', function(data) {
+    $.each(data, function(index, row) {
+      $('#endog-table').append(parseRow(row));
+    });    
+  })
+
   $.getJSON('data/exogenous.json', function(data) {
     $.each(data, function(index, row) {
       $('#exog-table').append(parseRow(row));
-    });
-    
+    });    
   })
 
 })();
