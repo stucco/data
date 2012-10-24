@@ -50,7 +50,8 @@ module.exports = function (grunt) {
     },
     min: {
       app: {
-        src: ['source/assets/js/main.js'],
+        src: ['source/assets/js/main.js',
+              'source/assets/js/jquery.tablesorter.js'],
         dest: 'deploy/js/scripts.min.js'
       }
     },
