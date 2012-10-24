@@ -13,8 +13,8 @@ $().ready(function () {
       , categories = value.categories || []
     var row = 
         '<tr>'
-      + '<td><a href="' + infoUrl + '">' + name + '</a></td>'
       + '<td>' + loc + '</td>'
+      + '<td><a href="' + infoUrl + '">' + name + '</a></td>'
       + '<td>' + type + '</td>'
       + '<td>' + desc + '<br><strong>URL:</strong> <a href="' + url + '">' + url + '</a></td>'
       + '<td>' + categories.toString() + '</td>'
