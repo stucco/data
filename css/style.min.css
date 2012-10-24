@@ -47,8 +47,20 @@ footer p {
   margin-bottom: -16px;
 }
 
-.table > thead th.sortable  {
+.table > thead th.sortable {
   cursor: pointer;
+}
+
+.table > thead th.header {
+  font-weight: 400;
+}
+
+.table > thead th.headerSortUp {
+  font-weight: 600;
+}
+
+.table > thead th.headerSortDown {
+  font-weight: 600;
 }
 
 @media (max-width: 480px) {
