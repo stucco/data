@@ -1,6 +1,6 @@
 /*global browser:true, $:true, jquery:true, console:true */
 
-(function(){
+$().ready(function() {
   'use strict';
 
   var parseRow = function(value) {
@@ -37,4 +37,4 @@
   $('#endog-table thead tr th span').tooltip();
   $('#exog-table thead tr th span').tooltip();
 
-})();
+});
