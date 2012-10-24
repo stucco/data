@@ -12,9 +12,7 @@ $().ready(function () {
       , desc = value.description || ''
       , categories = value.categories || []
     
-    var locStr = '<i class="' + (loc === 'ex' ? 'icon-globe' : 'icon-hdd') + '"></i>';
-    
-    var sourceStr = '<a href="' + infoUrl + '">' + name + '</a>';
+    var sourceStr = '<a href="' + infoUrl + '">' + name + '</a> &nbsp; ' + '<i class="' + (loc === 'ex' ? 'icon-globe' : 'icon-hdd') + '"></i>';
       
     var typeIcon = 'icon-bookmark'; // default to web
     if ( type === 'RSS' || type === 'Atom' ) {
@@ -27,7 +25,6 @@ $().ready(function () {
     
     var row = 
         '<tr>'
-      + '<td>' + locStr + '</td>'
       + '<td>' + sourceStr + '</td>'
       + '<td>' + typeStr + '</td>'
       + '<td>' + desc + '<br><strong>URL:</strong> <a href="' + url + '">' + url + '</a></td>'
