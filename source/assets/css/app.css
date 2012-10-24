@@ -47,22 +47,8 @@ footer p {
   margin-bottom: -16px;
 }
 
-dl.program-list dt {
-  width: 100px;
-}
-dl.program-list dd {
-  margin-left: 115px;
-}
-
-dl.date-list dt {
-  width: 160px;
-}
-dl.date-list dd {
-  margin-left: 170px;
-}
-
-dl.paper-list dt {
-  padding-top: 10px;
+.table > thead {
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {
@@ -92,12 +78,6 @@ dl.paper-list dt {
   }
   section {
     margin-top: 15px;
-  }
-  .dl-horizontal dt {
-    width: 120px;
-  }
-  .dl-horizontal dd {
-    margin-left: 130px;
   }
 }
 

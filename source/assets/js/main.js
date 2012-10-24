@@ -1,8 +1,7 @@
 /*global browser:true, $:true, jquery:true, console:true */
 
-'use strict';
-
-(function() {
+(function(){
+  'use strict';
 
   var parseRow = function(value) {
     var name = value.name || ''
@@ -23,16 +22,19 @@
 
   $.getJSON('data/endogenous.json', function(data) {
     $.each(data, function(index, row) {
-      $('#endog-table').append(parseRow(row))
-    });    
-    $('#endog-table').tablesorter( {sortList: [[0,0], [1,0]]} );
+      $('#endog-table tbody').append(parseRow(row));
+    });
+    // $('#endog-table').tablesorter( );
   })
 
   $.getJSON('data/exogenous.json', function(data) {
     $.each(data, function(index, row) {
-      $('#exog-table').append(parseRow(row));
-    });    
-    $('#exog-table').tablesorter( {sortList: [[0,0], [1,0]]} );
+      $('#exog-table tbody').append(parseRow(row));
+    });
+    $('#exog-table').tablesorter( [[0,0], [1,0]] );
   })
+
+  $('#endog-table thead tr th span').tooltip();
+  $('#exog-table thead tr th span').tooltip();
 
 })();
