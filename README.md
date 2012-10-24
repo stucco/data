@@ -3,7 +3,7 @@ stucco-data
 
 Enumeration of data sources that can be used to provide context to security events
 
-Data sources are enumerated as JSON array. The format is:
+Data sources are enumerated as a JSON array. Data source files are read from the `data` directory. The format for each data source is:
 
     {
       "name": "required name of the data source"
