@@ -11,11 +11,25 @@ $().ready(function () {
       , infoUrl = value.info || ''
       , desc = value.description || ''
       , categories = value.categories || []
+    
+    var locStr = '<i class="' + (loc === 'ex' ? 'icon-globe' : 'icon-hdd') + '"></i>';
+    
+    var sourceStr = '<a href="' + infoUrl + '">' + name + '</a>';
+      
+    var typeIcon = 'icon-bookmark'; // default to web
+    if ( type === 'RSS' || type === 'Atom' ) {
+      typeIcon = 'icon-rss';
+    }
+    else if ( type === 'API' ) {
+      typeIcon = 'icon-cogs';
+    }
+    var typeStr = '<i class="' + typeIcon + '">' + type + '</i>';
+    
     var row = 
         '<tr>'
-      + '<td>' + loc + '</td>'
-      + '<td><a href="' + infoUrl + '">' + name + '</a></td>'
-      + '<td>' + type + '</td>'
+      + '<td>' + locStr + '</td>'
+      + '<td>' + sourceStr + '</td>'
+      + '<td>' + typeStr + '</td>'
       + '<td>' + desc + '<br><strong>URL:</strong> <a href="' + url + '">' + url + '</a></td>'
       + '<td>' + categories.toString() + '</td>'
       + '</tr>';
