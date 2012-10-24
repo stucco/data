@@ -213,6 +213,7 @@
   }
 , {
     "name": "virus total"
+  , "url": "https://www.virustotal.com/vtapi/v2/url/scan"
   , "location": "ex"
   , "type": "API"
   , "info": "https://www.virustotal.com/documentation/public-api/"
