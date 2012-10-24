@@ -10,16 +10,17 @@ body
       h1.visible-phone
         small Data sources relevant to cyber security  
   
-    section#exogenous
+    section#datasources
       .page-header
-        h2 Exogenous Data Sources
-      table.table.table-hover.tablesorter#exog-table
+        h2 List of Data Sources
+      table.table.table-hover.tablesorter#datasource-table
         thead
           tr
-            th: span(rel='tooltip', title='Click on column names to sort by data source') Data source
-            th: span(rel='tooltip', title='Click on column names to sort by type') Type
+            th: span(rel='tooltip', title='Exogenous (external to an enterprise) or Endogenous (internal to an enterprise). Click to sort by data source') Location
+            th: span(rel='tooltip', title='Name of the data source. Click to sort by data source') Data source
+            th: span(rel='tooltip', title='Method of accessing the data source (e.g. API, RSS). Click to sort by type') Type
             th: span Description
-            th: span(rel='tooltip', title='Click on column names to sort by categories') Categories
+            th: span(rel='tooltip', title='Category of the data source. Click to sort by categories') Categories
         tbody
                                 
     section#contributing
