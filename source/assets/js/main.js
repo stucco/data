@@ -2,7 +2,7 @@
 
 'use strict';
 
-$().ready(function() {
+(function() {
 
   var parseRow = function(value) {
     var name = value.name || ''
@@ -35,4 +35,4 @@ $().ready(function() {
     $('#exog-table').tablesorter( {sortList: [[0,0], [1,0]]} );
   })
 
-});
+})();
