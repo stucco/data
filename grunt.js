@@ -15,7 +15,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     pkg: '<json:package.json>',
     lint: {
-      files: ['source/assets/*.js']
+      files: ['source/assets/js/main.js']
     },
     copy: {
       staticFiles: {
@@ -73,23 +73,16 @@ module.exports = function (grunt) {
     },
     watch: {
       files: '<config:lint.files>',
-      tasks: 'lint'
+      tasks: 'lint concat'
     },
     clean: [
       'deploy'
     ],
     jshint: {
       options: {
-        curly: true,
-        eqeqeq: true,
-        immed: true,
-        latedef: true,
-        newcap: true,
-        noarg: true,
-        sub: true,
-        undef: true,
-        boss: true,
-        eqnull: true,
+        laxcomma: true,
+        laxbreak: true,
+        asi: true,
         browser: true
       },
       globals: {
@@ -103,11 +96,11 @@ module.exports = function (grunt) {
   });
 
   // Default task will be invoked when grunt is called without any argument
-  // run everything
-  grunt.registerTask('default', 'jade mincss lint min copy');
-
   // concatenate but dont minify anything
-  grunt.registerTask('dev', 'jade lint concat copy');
+  grunt.registerTask('default', 'jade lint concat copy');
+
+  // run everything and minify
+  grunt.registerTask('prod', 'jade mincss lint min copy');
 
   // clean deploy folder
   grunt.registerTask('clean', 'clean');

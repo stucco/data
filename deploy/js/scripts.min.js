@@ -1,9 +1,9 @@
-/*global browser:true, $:true, jquery:true, console:true */
+/*global browser:true, $:true, jquery:true */
 
-$().ready(function() {
+$().ready(function () {
   'use strict';
 
-  var parseRow = function(value) {
+  var parseRow = function (value) {
     var name = value.name || ''
       , url = value.url || ''
       , type = value.type || ''
@@ -20,19 +20,26 @@ $().ready(function() {
     return row;
   }
 
-  // set up table sorter, but disable the third column
-  $('#exog-table').tablesorter({headers: {2: {sorter: false}}});
-  
   // set up tooltips for table headers - text in markup
   $('#exog-table thead tr th span').tooltip();
   
   // async load table data and reorder on first and second columns
-  $.getJSON('data/exogenous.json', function(data) {
-    $.each(data, function(index, row) {
+  $.getJSON('data/exogenous.json', function (data) {
+    $.each(data, function (index, row) {
       $('#exog-table tbody').append(parseRow(row));
     });
+
+    // set up table sorter, but disable the third column
+    $('#exog-table').tablesorter({
+      debug: true,
+      headers: {2: {sorter: false}}
+    });
+
+    // update table sort
     $('#exog-table').trigger('update');
-    $('#exog-table').trigger('sorton',[[0,0],[1,0]]);
+    var sortOrder = [[0, 0], [1, 0]]
+    $('#exog-table').trigger('sorton', [sortOrder]);
+    
   })
 
 
