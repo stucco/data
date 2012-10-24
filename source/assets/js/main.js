@@ -35,4 +35,4 @@ $().ready(function() {
     $('#exog-table').tablesorter( {sortList: [[0,0], [1,0]]} );
   })
 
-})();
+});
