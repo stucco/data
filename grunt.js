@@ -55,10 +55,21 @@ module.exports = function (grunt) {
         dest: 'deploy/js/scripts.min.js'
       }
     },
-    mincss : {
+    mincss: {
       'deploy/css/style.min.css': [
         'source/assets/css/app.css'
       ]
+    },
+    concat: {
+      js: {
+        src: ['source/assets/js/main.js',
+              'source/assets/js/jquery.tablesorter.js'],
+        dest: 'deploy/js/scripts.min.js'
+      },
+      css: {
+        src: ['source/assets/css/app.css'],
+        dest: 'deploy/css/style.min.css'
+      }
     },
     watch: {
       files: '<config:lint.files>',
@@ -94,6 +105,9 @@ module.exports = function (grunt) {
   // Default task will be invoked when grunt is called without any argument
   // run everything
   grunt.registerTask('default', 'jade mincss lint min copy');
+
+  // concatenate but dont minify anything
+  grunt.registerTask('dev', 'jade lint concat copy');
 
   // clean deploy folder
   grunt.registerTask('clean', 'clean');
