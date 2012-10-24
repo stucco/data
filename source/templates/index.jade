@@ -16,11 +16,11 @@ body
       table.table.table-hover.tablesorter#datasource-table
         thead
           tr
-            th: span(rel='tooltip', title='Exogenous (external to an enterprise) or Endogenous (internal to an enterprise). Click to sort by data source') Location
-            th: span(rel='tooltip', title='Name of the data source. Click to sort by data source') Data source
-            th: span(rel='tooltip', title='Method of accessing the data source (e.g. API, RSS). Click to sort by type') Type
+            th.sortable: span(rel='tooltip', title='Exogenous (external to an enterprise) or Endogenous (internal to an enterprise). Click to sort by data source') Location
+            th.sortable: span(rel='tooltip', title='Name of the data source. Click to sort by data source') Data source
+            th.sortable: span(rel='tooltip', title='Method of accessing the data source (e.g. API, RSS). Click to sort by type') Type
             th: span Description
-            th: span(rel='tooltip', title='Category of the data source. Click to sort by categories') Categories
+            th.sortable: span(rel='tooltip', title='Category of the data source. Click to sort by categories') Categories
         tbody
                                 
     section#contributing

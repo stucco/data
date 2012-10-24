@@ -47,7 +47,7 @@ footer p {
   margin-bottom: -16px;
 }
 
-.table > thead {
+.table > thead th.sortable  {
   cursor: pointer;
 }
 
