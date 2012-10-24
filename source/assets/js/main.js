@@ -1,18 +1,24 @@
-/*global browser:true, $:true, jquery:true */
+/*global browser:true, $:true, jquery:true, console:true */
 
 'use strict';
 
 (function(){
   $.getJSON('data/exogenous.json', function(data) {
     
-    $.each(data, function(index, value) { 
-      var name = value.name || ''
-        , url = value.url || ''
-        , type = value.type || ''
-        , infoUrl = value.info || ''
-        , desc = value.description || ''
-        , categories = value.categories || []
-      var row = '<tr><td>test</td><td>test</td><td>test</td></tr>';
+    $.each(data, function(index, value) {
+      console.log(value)
+      var name = value.name || '?'
+        , url = value.url || '?'
+        , type = value.type || '?'
+        , infoUrl = value.info || '?'
+        , desc = value.description || '?'
+        , categories = value.categories || ['none']
+      var row = 
+          '<tr>'
+        + '<td>' + name + '</td>'
+        + '<td>' + type + '</td>'
+        + '<td>' + desc + '</td>'
+        + '</tr>';
       $('#exog-table').append(row);
     });
     
