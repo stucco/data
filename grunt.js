@@ -50,7 +50,7 @@ module.exports = function (grunt) {
     },
     min: {
       app: {
-        src: ['source/assets/js/bootstrap.js'],
+        src: ['source/assets/js/main.js'],
         dest: 'deploy/js/scripts.min.js'
       }
     },
