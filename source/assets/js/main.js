@@ -34,6 +34,7 @@ $().ready(function () {
     // set up table sorter, but disable the third column
     $('#datasource-table').tablesorter({
       headers: {2: {sorter: false}}
+    , cancelSelection: true
     });
 
     // update table sort
