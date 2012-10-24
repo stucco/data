@@ -33,7 +33,6 @@ $().ready(function () {
 
     // set up table sorter, but disable the third column
     $('#datasource-table').tablesorter({
-      debug: true,
       headers: {2: {sorter: false}}
     });
 
