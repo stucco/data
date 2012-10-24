@@ -31,8 +31,8 @@ $().ready(function() {
     $.each(data, function(index, row) {
       $('#exog-table tbody').append(parseRow(row));
     });
-    $("#exog-table").trigger("update");
-    $("table").trigger("sorton",[[0,0],[1,0]]);
+    $('#exog-table').trigger('update');
+    $('#exog-table').trigger('sorton',[[0,0],[1,0]]);
   })
 
 
