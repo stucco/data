@@ -4,9 +4,18 @@
 
 (function(){
   $.getJSON('data/exogenous.json', function(data) {
-    var row = '<tr><td>test</td><td>test</td><td>test</td></tr>';
-    $('#exog-table').append(row);
-
+    
+    $.each(data, function(index, value) { 
+      var name = value.name || ''
+        , url = value.url || ''
+        , type = value.type || ''
+        , infoUrl = value.info || ''
+        , desc = value.description || ''
+        , categories = value.categories || []
+      var row = '<tr><td>test</td><td>test</td><td>test</td></tr>';
+      $('#exog-table').append(row);
+    });
+    
   })
 
 })();
