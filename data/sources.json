@@ -388,4 +388,44 @@
   , "description": "Jeremiah Grossman is a respected internet, security and privacy blogger."
   , "categories": ["risks", "security news"]
   }
+, {
+    "name": "security.stackexchange.com"
+  , "location": "ex"
+  , "type": "RSS"
+  , "info": "http://security.stackexchange.com/feeds"
+  , "description": "An online message board for general computer security."
+  , "categories": ["security questions"]
+  }
+, {
+    "name": "Malware Bytes"
+  , "location": "ex"
+  , "type": "RSS"
+  , "info": "http://blog.malwarebytes.org/feed/"
+  , "description": "A security blog about malware and computer security news."
+  , "categories": ["viruses", "security news"]
+  }
+, {
+    "name": "Common Configuration Enumeration"
+  , "location": "ex"
+  , "type": "web"
+  , "info": "http://cce.mitre.org/cce/"
+  , "description": "CCE provides unique identifiers to system configuration issues in order to facilitate fast and accurate correlation of configuration data across multiple information sources and tools. "
+  , "categories": ["configuration list"]
+  }
+, {
+    "name": "Common Platform Enumeration"
+  , "location": "ex"
+  , "type": "web"
+  , "info": "http://cpe.mitre.org/cpe/"
+  , "description": " The Common Platform Enumeration (CPE) is a dictionary of common IT systems, platforms, and packages encoded in a standardized naming format that is suitable for machine interpretation and processing."
+  , "categories": ["platform list"]
+  }
+, {
+    "name": "First Common Vulnerability Scoring System"
+  , "location": "ex"
+  , "type": "web"
+  , "info": "http://www.first.org/cvss"
+  , "description": "CVSS is a vulnerability scoring system designed to provide an open and standardized method for rating IT vulnerabilities."
+  , "categories": ["computer vulnerabilities"]
+  }
 ]
