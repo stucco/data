@@ -223,208 +223,208 @@
 , {
     "name": "MaxMind"
   , "location": "ex"
+  , "url": "http://dev.maxmind.com/"
   , "type": "API"
-  , "info": "http://dev.maxmind.com/"
   , "description": "IP GeoLocation"
   , "categories": ["geolocation"]
   }
 , {
     "name": "Microsoft Comprehensive Security Alerts"
   , "location": "ex"
+  , "url": "http://technet.microsoft.com/en-us/security/rss/comprehensive"
   , "type": "RSS"
-  , "info": "http://technet.microsoft.com/en-us/security/rss/comprehensive"
   , "description": "Provides comprehensive security alerts and bulletins for IT professionals."
   , "categories": ["incident response", "microsoft", "windows"]
   }
 , {
     "name": "Oracle Alerts"
   , "location": "ex"
+  , "url": "http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml"
   , "type": "RSS"
-  , "info": "http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml"
   , "description": "Anouncements for patches and security fixes to Oracle Products"
   , "categories": ["security updates", "oracle"]
   }
 , {
     "name": "Apple Security Anouncements"
   , "location": "ex"
+  , "url": "http://rss.lists.apple.com/security-announce.rss"
   , "type": "RSS"
-  , "info": "(http://rss.lists.apple.com/security-announce.rss"
   , "description": "Anouncements for patches, updates and security news for Apple products."
-  , "categories": ["security updates", 'apple']
+  , "categories": ["security updates", "apple"]
   }
 , {
     "name": "Wired: Threat Level"
   , "location": "ex"
+  , "url": "http://www.wired.com/threatlevel/feed/"
   , "type": "RSS"
-  , "info": "http://www.wired.com/threatlevel/feed/"
   , "description": "Wired magazine's online security blog focusing on privacy, crime and online security."
   , "categories": ["security news"]
   }
 , {
     "name": "Sophos Naked Security"
   , "location": "ex"
+  , "url": "http://feeds.feedburner.com/NakedSecurity "
   , "type": "RSS"
-  , "info": "http://feeds.feedburner.com/NakedSecurity "
   , "description": "Sophos' awarding winning security blog featuring news, opinions, research and security advice."
   , "categories": ["security news"]
   }
 , {
     "name": "Sohphos Virus Alerts"
   , "location": "ex"
+  , "url": "http://www.sophos.com/en-us/rss/threats/latest-viruses.xml"
   , "type": "RSS"
-  , "info": "http://www.sophos.com/en-us/rss/threats/latest-viruses.xml"
   , "description": "The lates virus alerts published by Sophos."
   , "categories": ["viruses"]
   }
 , {
     "name": "Sophos Potentially Unwanted Application (PUA) Alerts"
   , "location": "ex"
+  , "url": "http://www.sophos.com/en-us/rss/threats/latest-adware-and-puas.xml"
   , "type": "RSS"
-  , "info": "http://www.sophos.com/en-us/rss/threats/latest-adware-and-puas.xml"
   , "description": "A list of known and potentially unwanted applications published by Sophos."
   , "categories": ["risks"]
   }
 , {
     "name": "Sophos Controlled Application List"
   , "location": "ex"
+  , "url": "http://www.sophos.com/en-us/rss/threats/latest-applications.xml"
   , "type": "RSS"
-  , "info": "http://www.sophos.com/en-us/rss/threats/latest-applications.xml"
   , "description": "Lists of benign but potentially vulnerable applications published by Sophos."
   , "categories": ["risks"]
   }
 , {
     "name": "Schneier on Security"
   , "location": "ex"
+  , "url": "http://www.schneier.com/"
   , "type": "web"
-  , "info": "http://www.schneier.com/"
   , "description": "Security expert Bruce Schneier blogs about both technical and societal security."
   , "categories": ["risks", "security news"]
   }
 , {
     "name": "McAfee Blog"
   , "location": "ex"
+  , "url": "http://blogs.mcafee.com/feed"
   , "type": "RSS"
-  , "info": "http://blogs.mcafee.com/feed"
   , "description": "Blogs from McAfee about topics ranging from security research to comprimised applications."
   , "categories": ["risks", "security research"]
   }
 , {
     "name": "Kaspersky Secure List"
   , "location": "ex"
+  , "url": "http://www.securelist.com/en/rss/allupdates"
   , "type": "RSS"
-  , "info": "http://www.securelist.com/en/rss/allupdates"
   , "description": "News about the current and emerging THREATSCAPE and updates about Kaspersky products."
   , "categories": ["security news"]
   }
 , {
     "name": "Computer World Security Blog"
   , "location": "ex"
+  , "url": "http://blogs.computerworld.com/taxonomy/term/2/feed"
   , "type": "RSS"
-  , "info": "http://blogs.computerworld.com/taxonomy/term/2/feed"
   , "description": "Blog by ComputerWorld to keep the public up to date on current security news and risks."
   , "categories": ["security news", "risks"]
   }
 , {
     "name": "Darknet"
   , "location": "ex"
+  , "url": "http://feeds.feedburner.com/darknethackers"
   , "type": "RSS"
-  , "info": "http://feeds.feedburner.com/darknethackers"
   , "description": "Blog updates from Darknet about recent hacks and information about ethical cracking and penetration testing."
   , "categories": ["hacking", "cracking"]
   }
 , {
     "name": "Stack Exchange Security Blog"
   , "location": "ex"
+  , "url": "http://security.blogoverflow.com/feed/"
   , "type": "RSS"
-  , "info": "http://security.blogoverflow.com/feed/"
   , "description": "Community driven IT and security blog from StackExchange."
   , "categories": ["security news", "risks"]
   }
 , {
     "name": "Ars Technica: Risk Assesment"
   , "location": "ex"
+  , "url": "http://security.blogoverflow.com/feed/"
   , "type": "RSS"
-  , "info": "http://security.blogoverflow.com/feed/"
   , "description": "Ars Technica's security blog that focuses on topics useful to a semi technical person."
   , "categories": ["risks", "security news"]
   }
 , {
     "name": "CNet Security"
   , "location": "ex"
+  , "url": "http://feeds.feedburner.com/cnet/tcoc"
   , "type": "RSS"
-  , "info": "http://feeds.feedburner.com/cnet/tcoc"
   , "description": "Feed from CNet of security news suitable for general consumption."
   , "categories": ["security news"]
   }
 , {
     "name": "RSA: Speaking of Security"
+  , "url": "http://blogs.rsa.com/feed/"
   , "location": "ex"
   , "type": "RSS"
-  , "info": "http://blogs.rsa.com/feed/"
   , "description": "General security blog from RSA."
   , "categories": ["security news", "risks"]
   }
 , {
     "name": "Dark Reading"
+  , "url": "http://www.darkreading.com/rss/securityNewsFeedRss.xml"
   , "location": "ex"
   , "type": "RSS"
-  , "info": "http://www.darkreading.com/rss/securityNewsFeedRss.xml"
   , "description": "Dark Reading is the premier online resource helping information security professionals manage the balance between protection and access. It offers breaking news and analysis on attacks, breaches and vulnerabilities, as well as strategies for protecting enterprise data. It also offers guidance on setting risk management and compliance policies."
   , "categories": ["security policy", "security news"]
   }
 , {
     "name": "Forbes: Firewall"
+  , "url": "http://blogs.forbes.com/firewall/feed/"
   , "location": "ex"
   , "type": "RSS"
-  , "info": "http://blogs.forbes.com/firewall/feed/"
   , "description": "Blog from Forbes magazine about security topics with a focus on business."
   , "categories": ["risks", "security news"]
   }
 , {
     "name": "Jeremiah Grossman Blog"
+  , "url": "http://feeds.feedburner.com/JeremiahGrossman"
   , "location": "ex"
   , "type": "RSS"
-  , "info": "http://feeds.feedburner.com/JeremiahGrossman"
   , "description": "Jeremiah Grossman is a respected internet, security and privacy blogger."
   , "categories": ["risks", "security news"]
   }
 , {
     "name": "security.stackexchange.com"
+  , "url": "http://security.stackexchange.com/feeds"
   , "location": "ex"
   , "type": "RSS"
-  , "info": "http://security.stackexchange.com/feeds"
   , "description": "An online message board for general computer security."
   , "categories": ["security questions"]
   }
 , {
     "name": "Malware Bytes"
+  , "url": "http://blog.malwarebytes.org/feed/"
   , "location": "ex"
   , "type": "RSS"
-  , "info": "http://blog.malwarebytes.org/feed/"
   , "description": "A security blog about malware and computer security news."
   , "categories": ["viruses", "security news"]
   }
 , {
     "name": "Common Configuration Enumeration"
+  , "url": "http://cce.mitre.org/cce/"
   , "location": "ex"
   , "type": "web"
-  , "info": "http://cce.mitre.org/cce/"
   , "description": "CCE provides unique identifiers to system configuration issues in order to facilitate fast and accurate correlation of configuration data across multiple information sources and tools. "
   , "categories": ["configuration list"]
   }
 , {
     "name": "Common Platform Enumeration"
+  , "url": "http://cpe.mitre.org/cpe/"
   , "location": "ex"
   , "type": "web"
-  , "info": "http://cpe.mitre.org/cpe/"
   , "description": " The Common Platform Enumeration (CPE) is a dictionary of common IT systems, platforms, and packages encoded in a standardized naming format that is suitable for machine interpretation and processing."
   , "categories": ["platform list"]
   }
 , {
     "name": "First Common Vulnerability Scoring System"
+  , "url": "http://www.first.org/cvss"
   , "location": "ex"
   , "type": "web"
-  , "info": "http://www.first.org/cvss"
   , "description": "CVSS is a vulnerability scoring system designed to provide an open and standardized method for rating IT vulnerabilities."
   , "categories": ["computer vulnerabilities"]
   }
