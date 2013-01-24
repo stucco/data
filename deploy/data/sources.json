@@ -433,10 +433,7 @@
   , "url": "http://www.osvdb.org/"
   , "location": "ex"
   , "type": "web"
-  , "description": "OSVDB's goal is to provide accurate, detailed,
-current, and unbiased technical security information. Website has a
-twitter feed, news feed, top viewed vulnerabilites feed, top blogged
-vulnerabilities feed."
+  , "description": "OSVDB's goal is to provide accurate, detailed, current, and unbiased technical security information. Website has a twitter feed, news feed, top viewed vulnerabilites feed, top blogged vulnerabilities feed."
   , "categories": ["vulnerabilities database"]
   }
 ]
