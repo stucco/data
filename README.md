@@ -27,4 +27,4 @@ There is a [git pre-commit hook](http://git-scm.com/book/en/Customizing-Git-Git-
     
 A git [post-commit hook]() will merge the changes with the gh-pages branch for deployment on [github pages](http://pages.github.com/). To use it, create the symlink:
 
-    ln -s ../../post-commit.sh .git/hooks/post-commit.sh
+    ln -s ../../post-commit.sh .git/hooks/post-commit
