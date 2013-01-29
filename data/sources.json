@@ -581,5 +581,14 @@ mailing lists
 "
   , "categories": ["news and vulnerability database"]
   }
+,{
+    "name": "Stop Badware"
+  , "url": "http://www.stopbadware.org/"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "StopBadware is a nonprofit anti-malware organization based in Cambridge, Massachusetts. Our work makes the Web safer through the prevention, mitigation, and remediation of badware websites."
+  , "categories": ["black/ white list plus news"]
+  }
+
 
 ]
