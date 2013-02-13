@@ -42,6 +42,7 @@
   , "type": "web"
   , "description": "CVE International in scope and free for public use, CVE is a dictionary of publicly known information security vulnerabilities and exposures. CVE's common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services."
   , "categories": ["vulnerability list"]
+  , "investigating:" "ORNL"
   }
 , {
     "name": "National Vulnerability Database"
@@ -50,6 +51,7 @@
   , "type": "web"
   , "description": "NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. NVD includes databases of security checklists, security related software flaws, misconfigurations, product names, and impact metrics. "
   , "categories": ["vulnerability list"]
+  , "investigating:" "ORNL"
   }
 , {
     "name": "NVD CVE Updates"
@@ -435,6 +437,7 @@
   , "type": "web"
   , "description": "OSVDB's goal is to provide accurate, detailed, current, and unbiased technical security information. Website has a twitter feed, news feed, top viewed vulnerabilites feed, top blogged vulnerabilities feed."
   , "categories": ["vulnerabilities database"]
+  , "investigating": "ORNL"
   }
 ,{
     "name": "World Laboratory of Bugtraq 2"
