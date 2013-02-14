@@ -593,5 +593,12 @@ mailing lists
   , "categories": ["black/ white list plus news"]
   }
 
-
+,{
+  "name": "The Hacker News"
+  "url": "http://thehackernews.com"
+  "location": "ex"
+  "type": "web"
+  "description": "news of malware, attacks, hackers, etc.."
+  "categories": ["news"]
+}
 ]
