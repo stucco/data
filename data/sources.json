@@ -601,4 +601,22 @@ mailing lists
   "description": "news of malware, attacks, hackers, etc.."
   "categories": ["news"]
 }
+
+,{
+  "name": "The Emerging Threats Open Source Community"
+  "url": "http://www.emergingthreats.net/open-source/open-source-overview/"
+  "location": "ex"
+  "type": "web"
+  "description": "200,000 active users sharing free IDS rulesets on a daily basis.  It’s a fast-moving, frequently updated group, with users who are experts in detecting and preventing malware attacks on Snort, Suricata, BSD operating systems, and many other IDS and IPS platforms."
+  "categories": ["IDS rulesets"]
+}
+,{
+  "name": "Threat Expert"
+  "url": "http://www.threatexpert.com"
+  "location": "ex"
+  "type": "web"
+  "description": "advanced automated threat analysis system designed to analyze and report the behavior of computer viruses, worms, trojans, adware, spyware, and other security-related risks in a fully automated mode.  
+  In only a few minutes ThreatExpert can process a sample and generate a highly detailed threat report with the level of technical detail that matches or exceeds antivirus industry standards such as those normally found in online virus encyclopedias."
+  "categories": ["threat analysis"]
+}
 ]
