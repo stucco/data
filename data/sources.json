@@ -619,4 +619,13 @@ mailing lists
   In only a few minutes ThreatExpert can process a sample and generate a highly detailed threat report with the level of technical detail that matches or exceeds antivirus industry standards such as those normally found in online virus encyclopedias."
   "categories": ["threat analysis"]
 }
+,{
+  "name": "OpenIOC - Indicators of Compromise"
+  "url": "http://openioc.org"
+  "location": "ex"
+  "type": "web"
+  "description": "Windows-only framework and tools for XML-based rules for locating files, registry entries, etc."
+  "categories": ["IDS rulesets"]
+}
+
 ]
