@@ -628,4 +628,13 @@ mailing lists
   "categories": ["IDS rulesets"]
 }
 
+{
+  "name":"Secunia Database"
+  "url": "http://secunia.com/community/advisories/historic/"
+  "location": "ex"
+  "type":"web"
+  "description":"Database of security advisories updated daily, given an id number, release date, comments, a popularity score, criticality level, etc... Also has CVE references. "
+ "categories": ["Vulnerability Database"]
+}
+
 ]
