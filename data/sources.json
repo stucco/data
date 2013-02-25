@@ -636,5 +636,13 @@ mailing lists
   "description":"Database of security advisories updated daily, given an id number, release date, comments, a popularity score, criticality level, etc... Also has CVE references. "
  "categories": ["Vulnerability Database"]
 }
-
+{
+  "name":" Vulnerability Notes Database"
+  "url": "http://www.kb.cert.org/vuls/"
+  "location": "ex"
+  "type":"web"
+  "description":"High level (coarser) vulnerability database.  For example, many CVE entries are rolled into one entry here
+  "
+ "categories": ["Vulnerability Database"]
+}
 ]
