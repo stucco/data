@@ -637,7 +637,7 @@ mailing lists
  "categories": ["Vulnerability Database"]
 }
 {
-  "name":" Vulnerability Notes Database"
+  "name":"Vulnerability Notes Database"
   "url": "http://www.kb.cert.org/vuls/"
   "location": "ex"
   "type":"web"
@@ -645,4 +645,14 @@ mailing lists
   "
  "categories": ["Vulnerability Database"]
 }
+{
+  "name":"Information Assurance Support Environment (IASE) "
+  "url": "http://iase.disa.mil/stigs/iavm-cve.html"
+  "location": "ex"
+  "type":"web"
+  "description":".xls or .xlm file giving CVE announcments for DoD configuration standards"
+ "categories": ["DoD configurations/ CVE announcements sheet"]
+
+}
+
 ]
