@@ -655,4 +655,24 @@ mailing lists
 
 }
 
+{
+  "name":"Government Security News (GSN)"
+  "url": "http://www.gsnmagazine.com"
+  "location": "ex"
+  "type":"web"
+  "description":"News magazine security-related"
+ "categories": ["News"]
+
+}
+
+{
+  "name":"Deutsche Telekom Cyber Initiatives"
+  "url": "http://www.sicherheitstacho.eu/?lang=en"
+  "location": "ex"
+  "type":"web"
+  "description":"Current Threatscape info and statistics"
+ "categories": ["Current Cyber Attacks"]
+
+}
+
 ]
