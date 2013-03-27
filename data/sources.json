@@ -647,5 +647,12 @@
   , "description":"Current Threatscape info and statistics"
   , "categories": ["Current Cyber Attacks"]
   }
-
+, {
+    "name":"Trend Micro"
+  , "url": "http://www.trendmicro.com/us/index.html"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"Exploits, Vulnerabilities, Spam, Malware info"
+  , "categories": ["blog, rss feed, database"]
+  }
 ]
