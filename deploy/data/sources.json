@@ -42,7 +42,7 @@
   , "type": "web"
   , "description": "CVE International in scope and free for public use, CVE is a dictionary of publicly known information security vulnerabilities and exposures. CVE's common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services."
   , "categories": ["vulnerability list"]
-  , "investigating:" "ORNL"
+  , "investigating": "ORNL"
   }
 , {
     "name": "National Vulnerability Database"
@@ -51,7 +51,7 @@
   , "type": "web"
   , "description": "NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. NVD includes databases of security checklists, security related software flaws, misconfigurations, product names, and impact metrics. "
   , "categories": ["vulnerability list"]
-  , "investigating:" "ORNL"
+  , "investigating": "ORNL"
   }
 , {
     "name": "NVD CVE Updates"
@@ -439,57 +439,47 @@
   , "categories": ["vulnerabilities database"]
   , "investigating": "ORNL"
   }
-,{
+, {
     "name": "World Laboratory of Bugtraq 2"
   , "url": "http://cxsecurity.com"
   , "location": "ex"
   , "type": "web"
-  , "description": "World Laboratory of Bugtraq 2 is a huge collection of information on data communications safety. Its main objective is to inform about errors in various applications.
-"
+  , "description": "World Laboratory of Bugtraq 2 is a huge collection of information on data communications safety. Its main objective is to inform about errors in various applications."
   , "categories": ["computer vulnerabilities"]
   }
-,{
+, {
     "name": "Security Tracker"
   , "url": "http://securitytracker.com/"
   , "location": "ex"
   , "type": "web"
-  , "description": "an entry has CVE links, versions affected, descriptions, impact, solution, vendor URL, cause, and OS's affected
-"
+  , "description": "an entry has CVE links, versions affected, descriptions, impact, solution, vendor URL, cause, and OS's affected"
   , "categories": ["vulnerabilities list"]
   }
-
-,{
+, {
     "name": "CVE Details"
   , "url": "http://cvedetails.com/"
   , "location": "ex"
   , "type": "web"
-  , "description": "Easy to use web interface to CVE vulnerability data. You can browse for vendors, products and versions and view cve entries, vulnerabilities, related to them. You can view statistics about vendors, products and versions of products. CVE details are displayed in a single, easy to use page, see a sample
-nicely outlines CVSS score and components of it (I think CVSS seems useless )
-products affected, by type (for example, application), vendor, product, version, …
-related metasploit modules.  It links to tweets about this vulnerability! searches twitter for it I think… similarly for youtube and google. 
-can generate a customized rss feed.
- "
+  , "description": "Easy to use web interface to CVE vulnerability data. You can browse for vendors, products and versions and view cve entries, vulnerabilities, related to them. You can view statistics about vendors, products and versions of products. CVE details are displayed in a single, easy to use page, see a sample nicely outlines CVSS score and components of it (I think CVSS seems useless) products affected, by type (for example, application), vendor, product, version, … related metasploit modules.  It links to tweets about this vulnerability! searches twitter for it I think… similarly for youtube and google. can generate a customized rss feed."
   , "categories": ["vulnerabilities database"]
   }
-  ,{
+, {
     "name": "Defcon"
   , "url": "http://defcon.org/"
   , "location": "ex"
   , "type": "web"
-  , "description": "The Hacker Community's Foremost Social Network. 
-"
+  , "description": "The Hacker Community's Foremost Social Network."
   , "categories": ["Articles and links for hackers"]
   }
-  ,{
+, {
     "name": "Web Application Security Consortium"
   , "url": "Web Application Security Consortium "
   , "location": "ex"
   , "type": "web"
-  , "description": "project dedicated to maintaining a list of web applications related security incidents.   WHID's goal is to serve as a tool for raising awareness of the web application security problem and provide information for statistical analysis of web applications security incidents.
-"
+  , "description": "project dedicated to maintaining a list of web applications related security incidents. WHID's goal is to serve as a tool for raising awareness of the web application security problem and provide information for statistical analysis of web applications security incidents."
   , "categories": ["security applications list"]
   }
-,{
+, {
     "name": "dataloss database"
   , "url": "http://datalossdb.org/"
   , "location": "ex"
@@ -497,7 +487,7 @@ can generate a customized rss feed.
   , "description": "Every day, project curators and volunteers scour news feeds, blogs, and other websites looking for data breaches, new and old. We search for incidents that need to be updated, or incidents that are not yet in the database. We then add them to the database, mail out members of the mailing list, and Tweet the breach out to Twitter."
   , "categories": ["Database of Data Breaches"]
   }
-,{
+, {
     "name": "Netcraft"
   , "url": "news.netcraft.com"
   , "location": "ex"
@@ -505,7 +495,7 @@ can generate a customized rss feed.
   , "description": "phishing database and feed "
   , "categories": ["phishing database and feed"]
   }
-,{
+, {
     "name": "Honeynet"
   , "url": "www.honeynet.org"
   , "location": "ex"
@@ -513,7 +503,7 @@ can generate a customized rss feed.
   , "description": "To learn the tools, tactics and motives involved in computer and network attacks, and share the lessons learned."
   , "categories": ["reports about honeypots"]
   }
-,{
+, {
     "name": "linux-security"
   , "url": "http://linux-security.us/"
   , "location": "ex"
@@ -521,7 +511,7 @@ can generate a customized rss feed.
   , "description": "Linux Security Vendor suitable"
   , "categories": ["Vendor site"]
   }
-,{
+, {
     "name": "Tao Security Blog"
   , "url": "www.taosecurity.blogspot.com "
   , "location": "ex"
@@ -529,7 +519,7 @@ can generate a customized rss feed.
   , "description": "good articles, mostly general / high level stuff, not specific alerts or etc."
   , "categories": ["blog"]
   }
-  ,{
+, {
     "name": "slashdot"
   , "url": "www.slashdot.org"
   , "location": "ex"
@@ -537,16 +527,15 @@ can generate a customized rss feed.
   , "description": "news for nerds"
   , "categories": ["news site"]
   }
-  ,{
+, {
     "name": "AUS-CERT"
   , "url": "http://auscert.org.au/"
   , "location": "ex"
   , "type": "web"
-  , "description": "leading Computer Emergency Response Team for Australia and provides computer information security advice to the Australian public,
-"
+  , "description": "leading Computer Emergency Response Team for Australia and provides computer information security advice to the Australian public"
   , "categories": ["risks"]
   }
-  ,{
+, {
     "name": "Windows Security"
   , "url": "http://windowsecurity.com/"
   , "location": "ex"
@@ -554,7 +543,7 @@ can generate a customized rss feed.
   , "description": "Network Security Articles for Windows Server 2003, 2008 & Vista"
   , "categories": ["Vendor News Site"]
   }
-,{
+, {
     "name": "Xforce"
   , "url": "http://xforce.iss.net/"
   , "location": "ex"
@@ -562,29 +551,23 @@ can generate a customized rss feed.
   , "description": "IT services from IBM"
   , "categories": ["Vendor Site"]
   }
-  ,{
+, {
     "name": "Offensive Computing"
   , "url": "http://offensivecomputing.net/"
   , "location": "ex"
   , "type": "web"
-  , "description": "Offensive Computing was formed as a resource for the computer security community by Danny Quist. The primary emphasis here is on malware collections and analysis for the purpose of improving people's abilities to defend their networks. We provide resources such as live copies of malicious software, md5sums to search on and analysis of the malware to the general public.
-Will be transitioning to a download-only malware repository in the coming weeks. The blog site will be officially shutting down."
+  , "description": "Offensive Computing was formed as a resource for the computer security community by Danny Quist. The primary emphasis here is on malware collections and analysis for the purpose of improving people's abilities to defend their networks. We provide resources such as live copies of malicious software, md5sums to search on and analysis of the malware to the general public. Will be transitioning to a download-only malware repository in the coming weeks. The blog site will be officially shutting down."
   , "categories": ["malware repository"]
   }
-
-,{
+, {
     "name": "Security Focus"
   , "url": "http://securityfocus.com/"
   , "location": "ex"
   , "type": "web"
-  , "description": "original news content to detailed technical papers and guest columnists, we’ve strived to be the community’s source for all things security related.
-bugtraq
-security focus vuln. database
-mailing lists
-"
+  , "description": "original news content to detailed technical papers and guest columnists, we’ve strived to be the community’s source for all things security related. bugtraq security focus vuln. database mailing lists"
   , "categories": ["news and vulnerability database"]
   }
-,{
+, {
     "name": "Stop Badware"
   , "url": "http://www.stopbadware.org/"
   , "location": "ex"
@@ -592,87 +575,77 @@ mailing lists
   , "description": "StopBadware is a nonprofit anti-malware organization based in Cambridge, Massachusetts. Our work makes the Web safer through the prevention, mitigation, and remediation of badware websites."
   , "categories": ["black/ white list plus news"]
   }
-
-,{
-  "name": "The Hacker News"
-  "url": "http://thehackernews.com"
-  "location": "ex"
-  "type": "web"
-  "description": "news of malware, attacks, hackers, etc.."
-  "categories": ["news"]
-}
-
-,{
-  "name": "The Emerging Threats Open Source Community"
-  "url": "http://www.emergingthreats.net/open-source/open-source-overview/"
-  "location": "ex"
-  "type": "web"
-  "description": "200,000 active users sharing free IDS rulesets on a daily basis.  It’s a fast-moving, frequently updated group, with users who are experts in detecting and preventing malware attacks on Snort, Suricata, BSD operating systems, and many other IDS and IPS platforms."
-  "categories": ["IDS rulesets"]
-}
-,{
-  "name": "Threat Expert"
-  "url": "http://www.threatexpert.com"
-  "location": "ex"
-  "type": "web"
-  "description": "advanced automated threat analysis system designed to analyze and report the behavior of computer viruses, worms, trojans, adware, spyware, and other security-related risks in a fully automated mode.  
-  In only a few minutes ThreatExpert can process a sample and generate a highly detailed threat report with the level of technical detail that matches or exceeds antivirus industry standards such as those normally found in online virus encyclopedias."
-  "categories": ["threat analysis"]
-}
-,{
-  "name": "OpenIOC - Indicators of Compromise"
-  "url": "http://openioc.org"
-  "location": "ex"
-  "type": "web"
-  "description": "Windows-only framework and tools for XML-based rules for locating files, registry entries, etc."
-  "categories": ["IDS rulesets"]
-}
-
-{
-  "name":"Secunia Database"
-  "url": "http://secunia.com/community/advisories/historic/"
-  "location": "ex"
-  "type":"web"
-  "description":"Database of security advisories updated daily, given an id number, release date, comments, a popularity score, criticality level, etc... Also has CVE references. "
- "categories": ["Vulnerability Database"]
-}
-{
-  "name":"Vulnerability Notes Database"
-  "url": "http://www.kb.cert.org/vuls/"
-  "location": "ex"
-  "type":"web"
-  "description":"High level (coarser) vulnerability database.  For example, many CVE entries are rolled into one entry here
-  "
- "categories": ["Vulnerability Database"]
-}
-{
-  "name":"Information Assurance Support Environment (IASE) "
-  "url": "http://iase.disa.mil/stigs/iavm-cve.html"
-  "location": "ex"
-  "type":"web"
-  "description":".xls or .xlm file giving CVE announcments for DoD configuration standards"
- "categories": ["DoD configurations/ CVE announcements sheet"]
-
-}
-
-{
-  "name":"Government Security News (GSN)"
-  "url": "http://www.gsnmagazine.com"
-  "location": "ex"
-  "type":"web"
-  "description":"News magazine security-related"
- "categories": ["News"]
-
-}
-
-{
-  "name":"Deutsche Telekom Cyber Initiatives"
-  "url": "http://www.sicherheitstacho.eu/?lang=en"
-  "location": "ex"
-  "type":"web"
-  "description":"Current Threatscape info and statistics"
- "categories": ["Current Cyber Attacks"]
-
-}
+, {
+    "name": "The Hacker News"
+  , "url": "http://thehackernews.com"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "news of malware, attacks, hackers, etc.."
+  , "categories": ["news"]
+  }
+, {
+    "name": "The Emerging Threats Open Source Community"
+  , "url": "http://www.emergingthreats.net/open-source/open-source-overview/"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "200,000 active users sharing free IDS rulesets on a daily basis.  It’s a fast-moving, frequently updated group, with users who are experts in detecting and preventing malware attacks on Snort, Suricata, BSD operating systems, and many other IDS and IPS platforms."
+  , "categories": ["IDS rulesets"]
+  }
+, {
+    "name": "Threat Expert"
+  , "url": "http://www.threatexpert.com"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "advanced automated threat analysis system designed to analyze and report the behavior of computer viruses, worms, trojans, adware, spyware, and other security-related risks in a fully automated mode. In only a few minutes ThreatExpert can process a sample and generate a highly detailed threat report with the level of technical detail that matches or exceeds antivirus industry standards such as those normally found in online virus encyclopedias."
+  , "categories": ["threat analysis"]
+  }
+, {
+    "name": "OpenIOC - Indicators of Compromise"
+  , "url": "http://openioc.org"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "Windows-only framework and tools for XML-based rules for locating files, registry entries, etc."
+  , "categories": ["IDS rulesets"]
+  }
+, {
+    "name":"Secunia Database"
+  , "url": "http://secunia.com/community/advisories/historic/"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"Database of security advisories updated daily, given an id number, release date, comments, a popularity score, criticality level, etc... Also has CVE references. "
+  , "categories": ["Vulnerability Database"]
+  }
+, {
+    "name":"Vulnerability Notes Database"
+  , "url": "http://www.kb.cert.org/vuls/"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"High level (coarser) vulnerability database.  For example, many CVE entries are rolled into one entry here"
+  , "categories": ["Vulnerability Database"]
+  }
+, {
+    "name":"Information Assurance Support Environment (IASE) "
+  , "url": "http://iase.disa.mil/stigs/iavm-cve.html"
+  , "location": "ex"
+  , "type":"web"
+  , "description":".xls or .xlm file giving CVE announcments for DoD configuration standards"
+  , "categories": ["DoD configurations/ CVE announcements sheet"]
+  }
+, {
+    "name":"Government Security News (GSN)"
+  , "url": "http://www.gsnmagazine.com"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"News magazine security-related"
+  , "categories": ["News"]
+  }
+, {
+    "name":"Deutsche Telekom Cyber Initiatives"
+  , "url": "http://www.sicherheitstacho.eu/?lang=en"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"Current Threatscape info and statistics"
+  , "categories": ["Current Cyber Attacks"]
+  }
 
 ]
