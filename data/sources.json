@@ -655,4 +655,21 @@
   , "description":"Exploits, Vulnerabilities, Spam, Malware info"
   , "categories": ["blog, rss feed, database"]
   }
+, {
+    "name":"Securelist"
+  , "url": "http://www.securelist.com/en/"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"Threatscape info, popular malware exploits"
+  , "categories": ["Threatscape"]
+  }
+, {
+    "name":"DNSDB"
+  , "url": "https://dnsdb.isc.org/#Home"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"DNS database, stores indexes passive and authoritative DNS data. 
+  Can search for RRsets and metadata"
+  , "categories": ["DNS database"]
+  }
 ]
