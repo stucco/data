@@ -672,4 +672,12 @@
   Can search for RRsets and metadata"
   , "categories": ["DNS database"]
   }
+, {
+    "name":"Malware Domains"
+  , "url": "http://mirror1.malwaredomains.com/files/domains.txt"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"tab separated list of domains that are related to malware"
+  , "categories": ["malware websites list"]
+  }
 ]
