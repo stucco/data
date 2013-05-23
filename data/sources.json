@@ -680,4 +680,53 @@
   , "description":"tab separated list of domains that are related to malware"
   , "categories": ["malware websites list"]
   }
+
+, {
+    "name":"ZeuS domain blocklist"
+  , "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains that are related to malware"
+  , "categories": ["malware websites list"]
+  }
+, {
+    "name":"Malware Patrol"
+  , "url": "http://malwarepatrol.com/cgi/submit?action=list_adblock"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains that are related to malware"
+  , "categories": ["malware websites list"]
+  }
+, {
+    "name":"SpyEye Tracker"
+  , "url": "https://spyeyetracker.abuse.ch"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"Tracks and monitors SpyEye C&Cs"
+  , "categories": ["maleware websites list and Threatscape"]
+  }
+, {
+    "name":"Exposure Blacklist"
+  , "url": "http://exposure.iseclab.org/malware_domains.txt"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains related to maleware"
+  , "categories": ["maleware websites list"]
+  }
+, {
+    "name":"Sourcefire Vulnerability Research Team Labs"
+  , "url": "http://labs.snort.org/iplists/dnslist-2013-01-27"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains related to maleware"
+  , "categories": ["maleware websites list"]
+  }
+, {
+    "name":"Clean MX realtime database"
+  , "url": "http://support.clean-mx.de/clean-mx/login.php"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains related to maleware"
+  , "categories": ["maleware websites list nad Threatscape"]
+  }
 ]
