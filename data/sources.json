@@ -745,5 +745,12 @@
   , "description":"news"
   , "categories": ["news"]
   }
-
+, {
+    "name":"Security Street"
+  , "url": "https://community.rapid7.com/welcome"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"chat forum for security news"
+  , "categories": ["chat forum for news"]
+  }
 ]
