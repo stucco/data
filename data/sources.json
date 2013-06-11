@@ -727,6 +727,23 @@
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains related to maleware"
-  , "categories": ["maleware websites list nad Threatscape"]
+  , "categories": ["maleware websites list and Threatscape"]
   }
+, {
+    "name":"Security Week"
+  , "url": "https://www.securityweek.com/"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"news"
+  , "categories": ["news"]
+  }
+, {
+    "name":"Computer World"
+  , "url": "http://www.computerworld.com/s/topic/85/Malware+and+Vulnerabilities"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"news"
+  , "categories": ["news"]
+  }
+
 ]
