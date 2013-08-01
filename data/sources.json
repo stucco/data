@@ -647,5 +647,109 @@
   , "description":"Current Threatscape info and statistics"
   , "categories": ["Current Cyber Attacks"]
   }
+, {
+    "name":"Trend Micro"
+  , "url": "http://www.trendmicro.com/us/index.html"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"Exploits, Vulnerabilities, Spam, Malware info"
+  , "categories": ["blog, rss feed, database"]
+  }
+, {
+    "name":"Securelist"
+  , "url": "http://www.securelist.com/en/"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"Threatscape info, popular malware exploits"
+  , "categories": ["Threatscape"]
+  }
+, {
+    "name":"DNSDB"
+  , "url": "https://dnsdb.isc.org/#Home"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"DNS database, stores indexes passive and authoritative DNS data.  Can search for RRsets and metadata."
+  , "categories": ["DNS database"]
+  }
+, {
+    "name":"Malware Domains"
+  , "url": "http://mirror1.malwaredomains.com/files/domains.txt"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"tab separated list of domains that are related to malware"
+  , "categories": ["malware websites list"]
+  }
 
+, {
+    "name":"ZeuS domain blocklist"
+  , "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains that are related to malware"
+  , "categories": ["malware websites list"]
+  }
+, {
+    "name":"Malware Patrol"
+  , "url": "http://malwarepatrol.com/cgi/submit?action=list_adblock"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains that are related to malware"
+  , "categories": ["malware websites list"]
+  }
+, {
+    "name":"SpyEye Tracker"
+  , "url": "https://spyeyetracker.abuse.ch"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"Tracks and monitors SpyEye C&Cs"
+  , "categories": ["maleware websites list and Threatscape"]
+  }
+, {
+    "name":"Exposure Blacklist"
+  , "url": "http://exposure.iseclab.org/malware_domains.txt"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains related to maleware"
+  , "categories": ["maleware websites list"]
+  }
+, {
+    "name":"Sourcefire Vulnerability Research Team Labs"
+  , "url": "http://labs.snort.org/iplists/dnslist-2013-01-27"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains related to maleware"
+  , "categories": ["maleware websites list"]
+  }
+, {
+    "name":"Clean MX realtime database"
+  , "url": "http://support.clean-mx.de/clean-mx/login.php"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of domains related to maleware"
+  , "categories": ["maleware websites list and Threatscape"]
+  }
+, {
+    "name":"Security Week"
+  , "url": "https://www.securityweek.com/"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"news"
+  , "categories": ["news"]
+  }
+, {
+    "name":"Computer World"
+  , "url": "http://www.computerworld.com/s/topic/85/Malware+and+Vulnerabilities"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"news"
+  , "categories": ["news"]
+  }
+, {
+    "name":"Security Street"
+  , "url": "https://community.rapid7.com/welcome"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"chat forum for security news"
+  , "categories": ["chat forum for news"]
+  }
 ]
