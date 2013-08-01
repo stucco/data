@@ -17,7 +17,13 @@ Data sources are enumerated as a JSON array. Data source files are read from the
     , "description": "optional description about the data source"
     , "categories": ["optional array of categories for the data source"]
     }
-    
+
+## Usage
+
+You will need to have [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli) installed globally:  `npm install -g grunt-cli`.
+
+To check the JSON file, run: `grunt test`
+
 
 ## Deployment
 

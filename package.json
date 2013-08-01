@@ -1,25 +1,27 @@
 {
-  "name": "Stucco-Data"
-, "version": "0.0.1"
-, "description": "Stucco data source list web site"
-, "homepage": "http://ornl-visual-analytics.github.com/stucco-data/"
-, "author": "John Goodall <jgoodall@ornl.gov>"
-, "repository": {
-    "type": "git"
-  , "url": "https://github.com/ornl-visual-analytics/stucco-data.git"
-  }
-, "licenses": [
+  "name": "Stucco-Data",
+  "version": "0.0.1",
+  "description": "Stucco data source list web site",
+  "homepage": "http://ornl-visual-analytics.github.com/stucco-data/",
+  "author": "John Goodall <jgoodall@ornl.gov>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ornl-visual-analytics/stucco-data.git"
+  },
+  "licenses": [
     {
-      "type": "CC BY 3.0"
-    , "url": "https://creativecommons.org/licenses/by/3.0/"
+      "type": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
     }
-  ]
-, "devDependencies": {
-    "grunt": ">0.3"
-  , "grunt-contrib-jade": ">=0.0.3"
-  , "grunt-contrib-jshint": ">=0.0.1"
-  , "grunt-contrib-mincss": ">=0.0.3"
-  , "grunt-contrib-clean": ">=0.0.1"
-  , "jade": ">=0.25.0"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jade": "~0.8",
+    "grunt-contrib-jshint": "~0.6",
+    "grunt-contrib-cssmin": "~0.6",
+    "grunt-contrib-clean": "~0.5",
+    "grunt-contrib-concat": "~0.3",
+    "grunt-contrib-copy": "~0.4",
+    "grunt-contrib-uglify": "~0.2",
+    "grunt-jsonlint": "~1.0"
   }
 }
