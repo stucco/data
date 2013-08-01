@@ -80,21 +80,26 @@ module.exports = function (grunt) {
       data: {
         src: [ 'data/sources.json' ]
       }
+    },
+    'gh-pages': {
+      options: {
+        base: 'deploy'
+      },
+      src: ['**']
     }
     
   });
 
-  // Default task will be invoked when grunt is called without any argument
-  // concatenate but dont minify anything
-  grunt.registerTask('default', ['jsonlint', 'jshint', 'jade', 'concat', 'copy']);
-
   // run everything and minify
-  grunt.registerTask('prod', ['jsonlint', 'jshint', 'jade', 'cssmin', 'uglify', 'concat', 'copy']);
+  grunt.registerTask('default', ['jsonlint', 'jshint', 'jade', 'cssmin', 'uglify', 'concat', 'copy']);
 
   // clean deploy folder
   grunt.registerTask('clean', 'clean');
 
   // check that data sources file is valid json
-  grunt.registerTask('test', 'jsonlint');  
+  grunt.registerTask('test', 'jsonlint');
+
+  // deploy to gh-pages, but make sure everything is built first
+  grunt.registerTask('deploy', ['jsonlint', 'jshint', 'jade', 'cssmin', 'uglify', 'concat', 'copy', 'gh-pages']);
 
 };
