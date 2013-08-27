@@ -752,4 +752,28 @@
   , "description":"chat forum for security news"
   , "categories": ["chat forum for news"]
   }
+, {
+    "name":"URL blacklist dot com"
+  , "url": "http://urlblacklist.com/?sec=download"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"downloadable Blacklist"
+  , "categories": ["blacklist"]
+  }
+, {
+    "name":"ISC suspicious domains"
+  , "url": "http://isc.sans.edu/suspicious_domains.html"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"weighted Blacklist and Whitelist"
+  , "categories": ["blacklist and whitelist of malware"]
+  }
+, {
+    "name":"Risk Database"
+  , "url": "https://db.risk.io"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"Vulnerability Database"
+  , "categories": ["Vulnerability Database"]
+  }
 ]
