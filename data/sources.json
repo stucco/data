@@ -765,15 +765,23 @@
   , "url": "http://isc.sans.edu/suspicious_domains.html"
   , "location": "ex"
   , "type":"file"
-  , "description":"weighted Blacklist and Whitelist"
-  , "categories": ["blacklist and whitelist of malware"]
+  , "description":"There are many suspicious domains on the internet. In an effort to identify them, as well as false positives, we have assembled weighted lists based on tracking and malware lists from different sources. ISC is collecting and categorizing various lists associated with a certain level of sensitivity."
+  , "categories": ["blacklist", "maleware"]
   }
 , {
     "name":"Risk Database"
   , "url": "https://db.risk.io"
   , "location": "ex"
-  , "type":"file"
-  , "description":"Vulnerability Database"
-  , "categories": ["Vulnerability Database"]
+  , "type":"web"
+  , "description":"RiskDB is a free, centralized, and open repository of security vulnerabilities sourced from vulnerability databases. It provides up-to-the-minute information on security-related software flaws, misconfigurations, vulnerabilities, and threat advisories. This data can be used for vulnerability remediation and compliance."
+  , "categories": ["vulnerabilities"]
   }
+, {
+    "name":"Threat Post"
+  , "url": "http://threatpost.com/feed"
+  , "location": "ex"
+  , "type":"rss"
+  , "description":"The Kaspersky Lab Security News Service"
+  , "categories": ["threats"]
+  }  
 ]
