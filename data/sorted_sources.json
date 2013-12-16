@@ -1,14 +1,14 @@
-{
-"vulnerabilities":[
+[
   {
     "name": "Common Vulnerabilities and Exposures (CVE)"
   , "url": "https://cve.mitre.org/cve/"
   , "location": "ex"
   , "type": "web"
   , "description": "CVE International in scope and free for public use, CVE is a dictionary of publicly known information security vulnerabilities and exposures. CVE's common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services."
-  , "categories": ["vulnerability list"]
+  , "tags": ["vulnerability list"]
   , "investigating": "ORNL"
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "done"
   },
   {
@@ -17,9 +17,10 @@
   , "location": "ex"
   , "type": "web"
   , "description": "NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. NVD includes databases of security checklists, security related software flaws, misconfigurations, product names, and impact metrics. "
-  , "categories": ["vulnerability list"]
+  , "tags": ["vulnerability list"]
   , "investigating": "ORNL"
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "done"
   },
   {
@@ -28,8 +29,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "World Laboratory of Bugtraq 2 is a huge collection of information on data communications safety. Its main objective is to inform about errors in various applications."
-  , "categories": ["computer vulnerabilities","malware","exploits"]
+  , "tags": ["computer vulnerabilities","malware","exploits"]
   , "nodes": ["vulnerability","malware"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -38,9 +40,10 @@
   , "location": "ex"
   , "type": "web"
   , "description": "OSVDB's goal is to provide accurate, detailed, current, and unbiased technical security information. Website has a twitter feed, news feed, top viewed vulnerabilites feed, top blogged vulnerabilities feed."
-  , "categories": ["vulnerabilities database"]
+  , "tags": ["vulnerabilities database"]
   , "investigating": "ORNL"
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -49,8 +52,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "Easy to use web interface to CVE vulnerability data. You can browse for vendors, products and versions and view cve entries, vulnerabilities, related to them. You can view statistics about vendors, products and versions of products. CVE details are displayed in a single, easy to use page, see a sample nicely outlines CVSS score and components of it (I think CVSS seems useless) products affected, by type (for example, application), vendor, product, version, … related metasploit modules.  It links to tweets about this vulnerability! searches twitter for it I think… similarly for youtube and google. can generate a customized rss feed."
-  , "categories": ["vulnerabilities database"]
+  , "tags": ["vulnerabilities database"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -59,8 +63,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"Database of security advisories updated daily, given an id number, release date, comments, a popularity score, criticality level, etc... Also has CVE references. "
-  , "categories": ["Vulnerability Database"]
+  , "tags": ["Vulnerability Database"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -69,8 +74,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"High level (coarser) vulnerability database.  For example, many CVE entries are rolled into one entry here"
-  , "categories": ["Vulnerability Database"]
+  , "tags": ["Vulnerability Database"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -80,8 +86,8 @@
   , "type": "RSS"
   , "info": "https://nvd.nist.gov/download.cfm"
   , "description": "This feed provides information on all recent CVE vulnerabilities. The advantage is that you learn about new CVE vulnerabilities as soon as possible. "
-  , "categories": ["vulnerability list"]
-  , "nodes": ["vulnerability"]
+  , "tags": ["vulnerability list"]
+  , "nodes": ["vulnerability"], "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -91,8 +97,9 @@
   , "type": "RSS"
   , "info": "https://nvd.nist.gov/download.cfm"
   , "description": "This feed provides only fully analyzed CVE vulnerabilities. The advantage is that we are able to provide vulnerable product names in the title. "
-  , "categories": ["vulnerability list"]
+  , "tags": ["vulnerability list"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -102,8 +109,9 @@
   , "type": "RSS"
   , "info": "https://nvd.nist.gov/download.cfm"
   , "description": "NVD provides a service whereby software development organizations can submit Official Vendor Statements on the set of CVE vulnerabilities that apply to their products. "
-  , "categories": ["vulnerability list"]
+  , "tags": ["vulnerability list"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -112,8 +120,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"RiskDB is a free, centralized, and open repository of security vulnerabilities sourced from vulnerability databases. It provides up-to-the-minute information on security-related software flaws, misconfigurations, vulnerabilities, and threat advisories. This data can be used for vulnerability remediation and compliance."
-  , "categories": ["vulnerabilities"]
+  , "tags": ["vulnerabilities"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -122,8 +131,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "an entry has CVE links, versions affected, descriptions, impact, solution, vendor URL, cause, and OS's affected"
-  , "categories": ["vulnerabilities list"]
+  , "tags": ["vulnerabilities list"]
   , "nodes": []
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -132,8 +142,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "Bugtraq vulnerability list from Symantec.  Associated email archives: http://www.securityfocus.com/archive/1"
-  , "categories": ["vulnerability list"]
+  , "tags": ["vulnerability list"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -143,8 +154,9 @@
   , "type": "Atom"
   , "info": "https://www.us-cert.gov/cas/techalerts/"
   , "description": "Alerts warn about vulnerabilities, incidents, and other security issues that pose a significant risk."
-  , "categories": ["vulnerability list", "general threats and alerts"]
+  , "tags": ["vulnerability list", "general threats and alerts"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -154,8 +166,9 @@
   , "type": "Atom"
   , "info": "https://www.us-cert.gov/cas/bulletins/"
   , "description": "Bulletins provide weekly summaries of new vulnerabilities. Patch information is provided when available."
-  , "categories": ["vulnerability list"]
+  , "tags": ["vulnerability list"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -165,8 +178,9 @@
   , "type": "Atom"
   , "info": "https://www.us-cert.gov/current/"
   , "description": "Current Activity provides timely information on security risks to help you better protect your systems from malware campaigns and mitigate against new software vulnerabilities."
-  , "categories": ["vulnerability list", "risks", "general threats and alerts"]
+  , "tags": ["vulnerability list", "risks", "general threats and alerts"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -176,8 +190,9 @@
   , "type": "RSS"
   , "info": "https://www.symantec.com/security_response/landing/vulnerabilities.jsp"
   , "description": "list of vulnerabilities"
-  , "categories": ["vulnerability list"]
+  , "tags": ["vulnerability list"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -186,21 +201,20 @@
   , "location": "ex"
   , "type": "web"
   , "description": "IT services from IBM"
-  , "categories": ["vulnerability database"]
+  , "tags": ["vulnerability database"]
   , "nodes": ["vulnerability"]
+  , "category": "vulnerabilities"
   , "priority": "low"
-  }
-],
-
-"malware":[
+  },
   {
     "name": "Sohphos Virus Alerts"
   , "location": "ex"
   , "url": "http://www.sophos.com/en-us/rss/threats/latest-viruses.xml"
   , "type": "RSS"
   , "description": "The lates virus alerts published by Sophos."
-  , "categories": ["malware"]
+  , "tags": ["malware"]
   , "nodes": []
+  , "category": "malware"
   , "priority": "high"
   },
   {
@@ -210,8 +224,9 @@
   , "type": "RSS"
   , "info": "http://www.sophos.com/en-us/threat-center/threat-analyses/suspicious-behavior-and-files.aspx"
   , "description": "Files that are already executing and behaving questionably are detected as suspicious behavior, while files that look untrustworthy before they execute are detected as suspicious files. "
-  , "categories": ["malware"]
+  , "tags": ["malware"]
   , "nodes": ["malware"]
+  , "category": "malware"
   , "priority": "medium"
   },
   {
@@ -221,8 +236,9 @@
   , "type": "RSS"
   , "info": "http://www.f-secure.com/en/web/labs_global/threats/descriptions"
   , "description": "Find descriptions and removal advice for malware, spyware and riskware threats detected by Labs."
-  , "categories": ["malware"]
+  , "tags": ["malware"]
   , "nodes": ["malware"]
+  , "category": "malware"
   , "priority": "high"
   },
   {
@@ -231,8 +247,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "Offensive Computing was formed as a resource for the computer security community by Danny Quist. The primary emphasis here is on malware collections and analysis for the purpose of improving people's abilities to defend their networks. We provide resources such as live copies of malicious software, md5sums to search on and analysis of the malware to the general public. Will be transitioning to a download-only malware repository in the coming weeks. The blog site will be officially shutting down."
-  , "categories": ["malware repository","malware"]
+  , "tags": ["malware repository","malware"]
   , "nodes": ["malware"]
+  , "category": "malware"
   , "priority": "medium"
   },
   {
@@ -241,8 +258,9 @@
   , "url": "http://www.sophos.com/en-us/rss/threats/latest-adware-and-puas.xml"
   , "type": "RSS"
   , "description": "A list of known and potentially unwanted applications published by Sophos."
-  , "categories": ["risks"]
+  , "tags": ["risks"]
   , "nodes": []
+  , "category": "malware"
   , "priority": "low"
   },
   {
@@ -251,21 +269,20 @@
   , "url": "http://www.sophos.com/en-us/rss/threats/latest-applications.xml"
   , "type": "RSS"
   , "description": "Lists of benign but potentially vulnerable applications published by Sophos."
-  , "categories": ["risks"]
+  , "tags": ["risks"]
   , "nodes": []
+  , "category": "malware"
   , "priority": "low"
-  }
-],
-
-"blacklists":[
+  },
   {
     "name": "Spamhaus IP-based DNS-based Blackhole Lists (DNSBLs)"
   , "url": "http://www.spamhaus.org/zen/"
   , "location": "ex"
   , "type": "web"
   , "description": "ZEN is the combination of all Spamhaus IP-based DNSBLs into one single powerful and comprehensive blocklist to make querying faster and simpler. It contains the SBL, SBLCSS, XBL and PBL blocklists."
-  , "categories": ["blacklist"]
+  , "tags": ["blacklist"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -274,8 +291,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"tab separated list of domains that are related to malware"
-  , "categories": ["malware websites list","malware","blacklist"]
+  , "tags": ["malware websites list","malware","blacklist"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -284,8 +302,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains that are related to malware"
-  , "categories": ["malware websites list","malware","blacklist"]
+  , "tags": ["malware websites list","malware","blacklist"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -294,8 +313,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains that are related to malware"
-  , "categories": ["malware websites list", "malware"]
+  , "tags": ["malware websites list", "malware"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -304,8 +324,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"Tracks and monitors SpyEye C&Cs"
-  , "categories": ["malware websites list and Threatscape","malware"]
+  , "tags": ["malware websites list and Threatscape","malware"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -314,8 +335,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains related to malware"
-  , "categories": ["malware websites list"]
+  , "tags": ["malware websites list"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -324,8 +346,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains related to malware"
-  , "categories": ["malware websites list"]
+  , "tags": ["malware websites list"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -334,8 +357,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains related to malware"
-  , "categories": ["malware websites list and Threatscape"]
+  , "tags": ["malware websites list and Threatscape"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -344,8 +368,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"downloadable Blacklist"
-  , "categories": ["blacklist"]
+  , "tags": ["blacklist"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
   },
   {
@@ -354,21 +379,20 @@
   , "location": "ex"
   , "type":"file"
   , "description":"There are many suspicious domains on the internet. In an effort to identify them, as well as false positives, we have assembled weighted lists based on tracking and malware lists from different sources. ISC is collecting and categorizing various lists associated with a certain level of sensitivity."
-  , "categories": ["blacklist", "malware"]
+  , "tags": ["blacklist", "malware"]
   , "nodes": []
+  , "category": "blacklists"
   , "priority": "medium"
-  }
-],
-
-"misc_apis_and_resources":[
+  },
   {
     "name": "MaxMind"
   , "location": "ex"
   , "url": "http://dev.maxmind.com/"
   , "type": "API"
   , "description": "IP GeoLocation"
-  , "categories": ["geolocation"]
+  , "tags": ["geolocation"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "done"
   },
   {
@@ -377,8 +401,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": " The Common Platform Enumeration (CPE) is a dictionary of common IT systems, platforms, and packages encoded in a standardized naming format that is suitable for machine interpretation and processing."
-  , "categories": ["platform list"]
+  , "tags": ["platform list"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "done"
   },
   {
@@ -388,8 +413,9 @@
   , "type": "API"
   , "info": "https://www.virustotal.com/documentation/public-api/"
   , "description": "VirusTotal, a subsidiary of Google, is a free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners. At the same time, it may be used as a means to detect false positives, i.e. innocuous resources detected as malicious by one or more scanners."
-  , "categories": ["security tools", "malware"]
+  , "tags": ["security tools", "malware"]
   , "nodes": ["malware"]
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -398,8 +424,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "advanced automated threat analysis system designed to analyze and report the behavior of computer viruses, worms, trojans, adware, spyware, and other security-related risks in a fully automated mode. In only a few minutes ThreatExpert can process a sample and generate a highly detailed threat report with the level of technical detail that matches or exceeds antivirus industry standards such as those normally found in online virus encyclopedias."
-  , "categories": ["threat analysis","malware"]
+  , "tags": ["threat analysis","malware"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -408,8 +435,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "CCE provides unique identifiers to system configuration issues in order to facilitate fast and accurate correlation of configuration data across multiple information sources and tools. "
-  , "categories": ["configuration list"]
+  , "tags": ["configuration list"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -418,8 +446,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "CVSS is a vulnerability scoring system designed to provide an open and standardized method for rating IT vulnerabilities."
-  , "categories": ["computer vulnerabilities"]
+  , "tags": ["computer vulnerabilities"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -428,8 +457,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "Every day, project curators and volunteers scour news feeds, blogs, and other websites looking for data breaches, new and old. We search for incidents that need to be updated, or incidents that are not yet in the database. We then add them to the database, mail out members of the mailing list, and Tweet the breach out to Twitter."
-  , "categories": ["Database of Data Breaches"]
+  , "tags": ["Database of Data Breaches"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -438,8 +468,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "To learn the tools, tactics and motives involved in computer and network attacks, and share the lessons learned."
-  , "categories": ["reports about honeypots"]
+  , "tags": ["reports about honeypots"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -448,8 +479,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "200,000 active users sharing free IDS rulesets on a daily basis.  It’s a fast-moving, frequently updated group, with users who are experts in detecting and preventing malware attacks on Snort, Suricata, BSD operating systems, and many other IDS and IPS platforms."
-  , "categories": ["IDS rulesets"]
+  , "tags": ["IDS rulesets"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -458,8 +490,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "Windows-only framework and tools for XML-based rules for locating files, registry entries, etc."
-  , "categories": ["IDS rulesets"]
+  , "tags": ["IDS rulesets"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -468,8 +501,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"DNS database, stores indexes passive and authoritative DNS data.  Can search for RRsets and metadata."
-  , "categories": ["DNS database"]
+  , "tags": ["DNS database"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -478,8 +512,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"Current Threatscape info and statistics"
-  , "categories": ["Current Cyber Attacks","event stream"]
+  , "tags": ["Current Cyber Attacks","event stream"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -488,8 +523,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":".xls or .xlm file giving CVE announcments for DoD configuration standards"
-  , "categories": ["DoD configurations/ CVE announcements sheet"]
+  , "tags": ["DoD configurations/ CVE announcements sheet"]
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -498,8 +534,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "project dedicated to maintaining a list of web applications related security incidents. WHID's goal is to serve as a tool for raising awareness of the web application security problem and provide information for statistical analysis of web applications security incidents."
-  , "categories": []
+  , "tags": []
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
@@ -508,21 +545,20 @@
   , "location": "ex"
   , "type": "web"
   , "description": "phishing database and feed, 'internet data mining', commercial service (only?)."
-  , "categories": []
+  , "tags": []
   , "nodes": []
+  , "category": "apis_and_resources"
   , "priority": "medium"
-  }
-],
-
-"vendor_alerts":[
+  },
   {
     "name": "Microsoft Comprehensive Security Alerts"
   , "location": "ex"
   , "url": "http://technet.microsoft.com/en-us/security/rss/comprehensive"
   , "type": "RSS"
   , "description": "Provides comprehensive security alerts and bulletins for IT professionals.  The free Comprehensive alerts serve as an incremental supplement to the Basic Alerts. It provides advance notification of upcoming security bulletins, security advisories, and timely notification of any minor changes to previously released Microsoft Security Bulletins or Advisories."
-  , "categories": ["security updates", "incident response", "microsoft", "windows", "vendor bulletin", "os"]
+  , "tags": ["security updates", "incident response", "microsoft", "windows", "vendor bulletin", "os"]
   , "nodes": []
+  , "category": "vendor_alerts"
   , "priority": "medium"
   },
   {
@@ -532,8 +568,9 @@
   , "type": "Atom"
   , "info": "https://blogs.technet.com/b/msrc/"
   , "description": "Microsoft Security Response Center: The official corporate security response blog"
-  , "categories": ["incident response","vulnerabilities","general"]
+  , "tags": ["incident response","vulnerabilities","general"]
   , "nodes": []
+  , "category": "vendor_alerts"
   , "priority": "medium"
   },
   {
@@ -543,8 +580,9 @@
   , "type": "RSS"
   , "info": "http://technet.microsoft.com/en-us/security/advisory"
   , "description": "Microsoft Security Advisories, a supplement to the Microsoft Security Bulletins, address security changes that may not require a security bulletin but that may still affect customers' overall security."
-  , "categories": ["vendor bulletin", "os"]
+  , "tags": ["vendor bulletin", "os"]
   , "nodes": []
+  , "category": "vendor_alerts"
   , "priority": "medium"
   },
   {
@@ -553,8 +591,9 @@
   , "url": "http://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml"
   , "type": "RSS"
   , "description": "Anouncements for patches and security fixes to Oracle Products"
-  , "categories": ["security updates", "oracle"]
+  , "tags": ["security updates", "oracle"]
   , "nodes": []
+  , "category": "vendor_alerts"
   , "priority": "medium"
   },
   {
@@ -563,13 +602,11 @@
   , "url": "http://rss.lists.apple.com/security-announce.rss"
   , "type": "RSS"
   , "description": "Anouncements for patches, updates and security news for Apple products."
-  , "categories": ["security updates", "apple"]
+  , "tags": ["security updates", "apple"]
   , "nodes": []
+  , "category": "vendor_alerts"
   , "priority": "medium"
-  }
-],
-
-"general_text_news":[
+  },
   {
     "name": "Symantec Security Response"
   , "url": "http://www.symantec.com/connect/item-feeds/blog/2261/feed/all/en"
@@ -577,8 +614,9 @@
   , "type": "RSS"
   , "info": "http://www.symantec.com/connect/symantec-blogs/sr"
   , "description": "Our security research centers around the world provide unparalleled analysis of and protection from malware, security risks, vulnerabilities, and spam."
-  , "categories": ["incident response","general"]
+  , "tags": ["incident response","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -588,8 +626,9 @@
   , "type": "RSS"
   , "info": "https://isc.sans.edu/"
   , "description": "Handler's diary of security incidents"
-  , "categories": ["risks","general"]
+  , "tags": ["risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -599,8 +638,9 @@
   , "type": "RSS"
   , "info": "http://nakedsecurity.sophos.com/"
   , "description": "Naked Security is Sophos's award-winning threat news room, giving you news, opinion, advice and research on computer security issues and the latest internet threats."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -610,8 +650,9 @@
   , "type": "Atom"
   , "info": "https://krebsonsecurity.com/"
   , "description": "Brian Krebs worked as a reporter for The Washington Post from 1995 to 2009, authoring more than 1,300 blog posts for the Security Fix blog, as well as hundreds of stories for washingtonpost.com and The Washington Post newspaper."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -621,8 +662,9 @@
   , "type": "RSS"
   , "info": "http://www.f-secure.com/weblog/"
   , "description": "Welcome to the blog of F-Secure Labs - the security center of F-Secure - maintained by the personnel responsible for analyzing virus, phishing, spyware, and spam attacks."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -632,8 +674,9 @@
   , "type": "RSS"
   , "info": "https://www.team-cymru.org/News/"
   , "description": "Team Cymru Research NFP is a specialized Internet security research firm and 501(c)3 non-profit dedicated to making the Internet more secure. Team Cymru helps organizations identify and eradicate problems in their networks, providing insight that improves lives."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -643,8 +686,9 @@
   , "type": "RSS"
   , "info": "http://www.spamhaus.org/news/"
   , "description": "The Spamhaus Project is an international nonprofit organization whose mission is to track the Internet's spam operations and sources, to provide dependable realtime anti-spam protection for Internet networks, to work with Law Enforcement Agencies to identify and pursue spam gangs worldwide, and to lobby governments for effective anti-spam legislation."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -653,8 +697,9 @@
   , "url": "http://www.wired.com/threatlevel/feed/"
   , "type": "RSS"
   , "description": "Wired magazine's online security blog focusing on privacy, crime and online security."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -663,8 +708,9 @@
   , "url": "http://www.schneier.com/"
   , "type": "web"
   , "description": "Security expert Bruce Schneier blogs about both technical and societal security."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -673,8 +719,9 @@
   , "url": "http://blogs.mcafee.com/feed"
   , "type": "RSS"
   , "description": "Blogs from McAfee about topics ranging from security research to comprimised applications."
-  , "categories": ["security news","security research","risks","general"]
+  , "tags": ["security news","security research","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -683,8 +730,9 @@
   , "url": "http://www.securelist.com/en/rss/allupdates"
   , "type": "RSS"
   , "description": "News about the current and emerging THREATSCAPE and updates about Kaspersky products."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -693,8 +741,9 @@
   , "url": "http://blogs.computerworld.com/taxonomy/term/2/feed"
   , "type": "RSS"
   , "description": "Blog by ComputerWorld to keep the public up to date on current security news and risks."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -703,8 +752,9 @@
   , "url": "http://security.blogoverflow.com/feed/"
   , "type": "RSS"
   , "description": "Community driven IT and security blog from StackExchange."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -713,8 +763,9 @@
   , "url": "http://security.blogoverflow.com/feed/"
   , "type": "RSS"
   , "description": "Ars Technica's security blog that focuses on topics useful to a semi technical person."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -723,8 +774,9 @@
   , "url": "http://feeds.feedburner.com/cnet/tcoc"
   , "type": "RSS"
   , "description": "Feed from CNet of security news suitable for general consumption."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -733,8 +785,9 @@
   , "location": "ex"
   , "type": "RSS"
   , "description": "General security blog from RSA."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -743,8 +796,9 @@
   , "location": "ex"
   , "type": "RSS"
   , "description": "Blog from Forbes magazine about security topics with a focus on business."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -753,8 +807,9 @@
   , "location": "ex"
   , "type": "RSS"
   , "description": "Jeremiah Grossman is a respected internet, security and privacy blogger."
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -763,8 +818,9 @@
   , "location": "ex"
   , "type": "RSS"
   , "description": "An online message board for general computer security."
-  , "categories": ["security questions","risks","general"]
+  , "tags": ["security questions","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -773,8 +829,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "good articles, mostly general / high level stuff, not specific alerts or etc."
-  , "categories": ["blog","security news","risks","general"]
+  , "tags": ["blog","security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -783,8 +840,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "news for nerds"
-  , "categories": ["security news","risks","general"]
+  , "tags": ["security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -793,8 +851,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"news"
-  , "categories": ["news","security news","risks","general"]
+  , "tags": ["news","security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -803,8 +862,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"news"
-  , "categories": ["news","security news","risks","general"]
+  , "tags": ["news","security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -813,8 +873,9 @@
   , "location": "ex"
   , "type":"file"
   , "description":"chat forum for security news"
-  , "categories": ["chat forum for news","security news","risks","general"]
+  , "tags": ["chat forum for news","security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -823,8 +884,9 @@
   , "location": "ex"
   , "type":"rss"
   , "description":"The Kaspersky Lab Security News Service"
-  , "categories": ["threats","security news","risks","general"]
+  , "tags": ["threats","security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -833,8 +895,9 @@
   , "location": "ex"
   , "type": "RSS"
   , "description": "A security blog about malware and computer security news."
-  , "categories": ["malware", "security news","risks","general"]
+  , "tags": ["malware", "security news","risks","general"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -843,8 +906,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"malware descriptions"
-  , "categories": ["malware"]
+  , "tags": ["malware"]
   , "nodes": ["malware"]
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -853,8 +917,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "news of malware, attacks, hackers, etc.."
-  , "categories": ["news"]
+  , "tags": ["news"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -863,8 +928,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"Exploits, Vulnerabilities, Spam, Malware info"
-  , "categories": ["blog","rss feed","malware","database","news","reports"]
+  , "tags": ["blog","rss feed","malware","database","news","reports"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -873,8 +939,9 @@
   , "location": "ex"
   , "type":"web"
   , "description":"Threatscape info, popular malware exploits"
-  , "categories": ["Threatscape","blog","news","reports"]
+  , "tags": ["Threatscape","blog","news","reports"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -883,8 +950,9 @@
   , "url": "http://feeds.feedburner.com/darknethackers"
   , "type": "RSS"
   , "description": "Blog updates from Darknet about recent hacks and information about ethical cracking and penetration testing."
-  , "categories": ["hacking", "cracking","blog","news","reports"]
+  , "tags": ["hacking", "cracking","blog","news","reports"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -893,8 +961,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "leading Computer Emergency Response Team for Australia and provides computer information security advice to the Australian public"
-  , "categories": ["risks","alerts"]
+  , "tags": ["risks","alerts"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -903,8 +972,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "IT services from IBM"
-  , "categories": ["blog", "news"]
+  , "tags": ["blog", "news"]
   , "nodes": ["vulnerability"]
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -913,8 +983,9 @@
   , "location": "ex"
   , "type": "RSS"
   , "description": "Dark Reading is the premier online resource helping information security professionals manage the balance between protection and access. It offers breaking news and analysis on attacks, breaches and vulnerabilities, as well as strategies for protecting enterprise data. It also offers guidance on setting risk management and compliance policies."
-  , "categories": ["security policy", "news"]
+  , "tags": ["security policy", "news"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   },
   {
@@ -923,67 +994,9 @@
   , "location": "ex"
   , "type": "web"
   , "description": "Network Security Articles for Windows Server 2003, 2008 & Vista"
-  , "categories": ["Vendor News Site"]
+  , "tags": ["Vendor News Site"]
   , "nodes": []
+  , "category": "news_articles"
   , "priority": "medium"
   }
-],
-
-"unsorted":[
-  {
-    "name": "Security Focus"
-  , "url": "http://securityfocus.com/"
-  , "location": "ex"
-  , "type": "web"
-  , "description": "original news content to detailed technical papers and guest columnists, we’ve strived to be the community’s source for all things security related. bugtraq security focus vuln. database mailing lists"
-  , "categories": ["news","vulnerability database"]
-  , "nodes": []
-  , "priority": "low"
-  , "comments":"bugtraq is listed above.  Has several other email list archives, but generally inactive or too low activity."
-  },
-  {
-    "name": "Defcon"
-  , "url": "http://defcon.org/"
-  , "location": "ex"
-  , "type": "web"
-  , "description": "The Hacker Community's Foremost Social Network."
-  , "categories": []
-  , "nodes": []
-  , "priority": "low"
-  , "comments":"they have a useful list of email lists: http://defcon.org/html/links/mailing-lists.html, forums could be useful, the rest has too little processable information"
-  },
-  {
-    "name": "linux-security"
-  , "url": "http://linux-security.us/"
-  , "location": "ex"
-  , "type": "web"
-  , "description": "Linux Security Vendor suitable"
-  , "categories": ["Vendor site"]
-  , "nodes": []
-  , "priority": "low"
-  , "comments": "down/unresponsive"
-  },
-  {
-    "name": "Stop Badware"
-  , "url": "http://www.stopbadware.org/"
-  , "location": "ex"
-  , "type": "web"
-  , "description": "StopBadware is a nonprofit anti-malware organization based in Cambridge, Massachusetts. Our work makes the Web safer through the prevention, mitigation, and remediation of badware websites."
-  , "categories": ["blacklist","whitelist","news","malware"]
-  , "nodes": []
-  , "priority": "low"
-  , "comments": "unreachable (compromised and blocked)"
-  },
-  {
-    "name":"Government Security News (GSN)"
-  , "url": "http://www.gsnmagazine.com"
-  , "location": "ex"
-  , "type":"web"
-  , "description":"News magazine security-related"
-  , "categories": ["news"]
-  , "nodes": []
-  , "priority": "low"
-  , "comments": "unreachable (compromised and blocked)"
-  }
 ]
-}
