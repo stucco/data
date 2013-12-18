@@ -11,6 +11,7 @@ $().ready(function () {
       , infoUrl = value.info || ''
       , desc = value.description || ''
       , category = value.category || ''
+      , priority = value.priority || '';
     
     var sourceStr = '<a href="' + infoUrl + '">' + name + '</a> &nbsp; ' + '<i class="' + (loc === 'ex' ? 'icon-globe' : 'icon-hdd') + '"></i>';
       
@@ -24,7 +25,7 @@ $().ready(function () {
     else if ( type === 'API' ) {
       typeIcon = 'icon-cogs';
     }
-    var typeStr = '<i class="' + typeIcon + '">' + type + '</i>';
+    var typeStr = '<i class="' + typeIcon + '"> ' + type + '</i>';
     
     var row = 
         '<tr>'
@@ -32,6 +33,7 @@ $().ready(function () {
       + '<td>' + typeStr + '</td>'
       + '<td>' + desc + '<br><strong>URL:</strong> <a href="' + url + '">' + url + '</a></td>'
       + '<td>' + category + '</td>'
+      + '<td>' + priority + '</td>'
       + '</tr>';
     return row;
   }
