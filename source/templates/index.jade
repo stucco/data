@@ -2,30 +2,35 @@
 
 include includes/head
 body
-  include includes/nav
+
+  .header-links
+    span.link-icon: a(href='https://github.com/stucco/data')
+      i.fa.fa-github.lg
+      span &nbsp; Github
+    span.link-icon: a(href='https://raw.github.com/stucco/data/master/data/sources.json')
+      i.fa.fa-download.lg
+      span &nbsp; JSON
   .container
-    header.hero-unit
+    header
       h1 Stucco-Data 
-        small.hidden-phone  Data sources relevant to cyber security
-      h1.visible-phone
-        small Data sources relevant to cyber security  
-  
+        small Data sources relevant to cyber security
     section#datasources
       .page-header
         h2 List of Data Sources
-      table.table.table-hover.tablesorter#datasource-table
-        thead
-          tr
-            th.sortable(width='25%'): span(rel='tooltip', title='Name of the data source. Click to sort by data source') Data source &nbsp; 
-              i.icon-sort
-            th.sortable(width='10%'): span(rel='tooltip', title='Method of accessing the data source (e.g. API, RSS). Click to sort by type') Type &nbsp; 
-              i.icon-sort
-            th(width='40%'): span Description
-            th.sortable(width='15%'): span(rel='tooltip', title='Category of the data source. Click to sort by categories') Categories &nbsp; 
-              i.icon-sort
-            th.sortable(width='10%'): span(rel='tooltip', title='Status for the Stucco project. Click to sort by status') Status &nbsp; 
-              i.icon-sort
-        tbody
+      .table-responsive
+        table.table.table-hover.tablesorter#datasource-table
+          thead
+            tr
+              th.sortable: span(data-toggle='tooltip', title='Name of the data source. Click to sort by data source') Data source 
+                i.fa.fa-sort
+              th.sortable: span(data-toggle='tooltip', title='Method of accessing the data source (e.g. API, RSS). Click to sort by type') Type 
+                i.fa.fa-sort
+              th.sortable: span(data-toggle='tooltip', title='Category of the data source. Click to sort by category') Category 
+                i.fa.fa-sort
+              th: span Description
+              th.sortable: span(data-toggle='tooltip', title='Status for the Stucco project. Click to sort by status') Status 
+                i.fa.fa-sort
+          tbody
                                 
     section#contributing
       .page-header

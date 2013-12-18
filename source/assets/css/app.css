@@ -1,19 +1,14 @@
-body {
-  padding-top: 45px;
-  padding-bottom: 25px;
-  background-color: #fff;
+.header-links {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.header-links .link-icon {
+  margin-left: 10px;
 }
 
-.hero-unit {
-  padding: 20px;
-}
-
-.hero-unit h1 {
+header h1 {
   margin-bottom: 10px;
-}
-
-h1 small {
-  font-size: 20px;
 }
 
 section {
@@ -34,17 +29,8 @@ footer p {
   margin-bottom: 0px;
 }
 
-.navbar-fixed-top .brand {
-  padding-right: 20px;
-  font-weight: bold;
-  color: #666;
-}
-.navbar-fixed-top .brand:hover {
-  text-decoration: none;
-}
-
 .page-header > h2 {
-  margin-bottom: -16px;
+  margin-bottom: -6px;
 }
 
 .table > thead th.sortable {
@@ -63,6 +49,10 @@ footer p {
   font-weight: 600;
 }
 
+.table thead .sortable i {
+  color: #666;
+}
+
 @media (max-width: 480px) {
   body {
     padding-top: 0px;
@@ -72,20 +62,13 @@ footer p {
     padding-left: -10px;
     padding-right: -10px;
   }
-  .hero-unit {
-    padding: 10px;
-  }
-  .hero-unit h1 {
+  header h1 {
     font-size: 24px;
-  }
-  .hero-unit p {
-    font-size: 13px;
-    line-height: 15px;
   }
   .page-header > h2 {
     border-bottom-color: #aaa;
   }
-  h1 small {
+  header small {
     font-size: 13px;
   }
   section {
@@ -97,20 +80,13 @@ footer p {
   body {
     padding-top: 0px;
   }
-  .hero-unit {
-    padding: 15px;
-  }
-  .hero-unit h1 {
+  header h1 {
     font-size: 40px;
-  }
-  .hero-unit p {
-    font-size: 18px;
-    line-height: 20px;
   }
   .page-header > h2 {
     border-bottom-color: #aaa;
   }
-  h1 small {
+  header small {
     font-size: 16px;
   }
 }
