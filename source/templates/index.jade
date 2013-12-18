@@ -16,12 +16,14 @@ body
       table.table.table-hover.tablesorter#datasource-table
         thead
           tr
-            th.sortable(width='30%'): span(rel='tooltip', title='Name of the data source. Click to sort by data source') Data source &nbsp; 
+            th.sortable(width='25%'): span(rel='tooltip', title='Name of the data source. Click to sort by data source') Data source &nbsp; 
               i.icon-sort
             th.sortable(width='10%'): span(rel='tooltip', title='Method of accessing the data source (e.g. API, RSS). Click to sort by type') Type &nbsp; 
               i.icon-sort
-            th(width='45%'): span Description
+            th(width='40%'): span Description
             th.sortable(width='15%'): span(rel='tooltip', title='Category of the data source. Click to sort by categories') Categories &nbsp; 
+              i.icon-sort
+            th.sortable(width='10%'): span(rel='tooltip', title='Status for the Stucco project. Click to sort by status') Status &nbsp; 
               i.icon-sort
         tbody
                                 
