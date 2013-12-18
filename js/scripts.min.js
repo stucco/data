@@ -10,13 +10,16 @@ $().ready(function () {
       , loc = value.location || ''
       , infoUrl = value.info || ''
       , desc = value.description || ''
-      , categories = value.categories || []
+      , category = value.category || ''
     
     var sourceStr = '<a href="' + infoUrl + '">' + name + '</a> &nbsp; ' + '<i class="' + (loc === 'ex' ? 'icon-globe' : 'icon-hdd') + '"></i>';
       
     var typeIcon = 'icon-bookmark'; // default to web
     if ( type === 'RSS' || type === 'Atom' ) {
       typeIcon = 'icon-rss';
+    }
+    else if ( type === 'file' ) {
+      typeIcon = 'icon-file';
     }
     else if ( type === 'API' ) {
       typeIcon = 'icon-cogs';
@@ -28,7 +31,7 @@ $().ready(function () {
       + '<td>' + sourceStr + '</td>'
       + '<td>' + typeStr + '</td>'
       + '<td>' + desc + '<br><strong>URL:</strong> <a href="' + url + '">' + url + '</a></td>'
-      + '<td>' + categories.toString() + '</td>'
+      + '<td>' + category + '</td>'
       + '</tr>';
     return row;
   }
@@ -37,7 +40,7 @@ $().ready(function () {
   $('#datasource-table thead tr th span').tooltip();
   
   // async load table data and reorder on first and second columns
-  $.getJSON('data/sources.json', function (data) {
+  $.getJSON('data/sorted_sources.json', function (data) {
     $.each(data, function (index, row) {
       $('#datasource-table tbody').append(parseRow(row));
     });
