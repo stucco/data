@@ -11,7 +11,7 @@
   , "category": "vulnerabilities"
   , "priority": "done"
   },
-, {
+  {
     "name": "Metasploit"
   , "url": "https://github.com/stucco/exogenous-data-ms"
   , "location": "ex"
@@ -22,7 +22,7 @@
   , "nodes": ["vulnerability","malware"]
   , "category": "malware"
   , "priority": "done"
-  }
+  },
   {
     "name": "National Vulnerability Database"
   , "url": "https://nvd.nist.gov/home.cfm"
