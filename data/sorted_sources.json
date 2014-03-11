@@ -11,6 +11,18 @@
   , "category": "vulnerabilities"
   , "priority": "done"
   },
+, {
+    "name": "Metasploit"
+  , "url": "https://github.com/stucco/exogenous-data-ms"
+  , "location": "ex"
+  , "type": "file"
+  , "description": "Table of metasploit modules info"
+  , "tags": ["exploit list"]
+  , "investigating": "ORNL"
+  , "nodes": ["vulnerability","malware"]
+  , "category": "malware"
+  , "priority": "done"
+  }
   {
     "name": "National Vulnerability Database"
   , "url": "https://nvd.nist.gov/home.cfm"
@@ -353,14 +365,14 @@
   },
   {
     "name":"Clean MX realtime database"
-  , "url": "http://support.clean-mx.de/clean-mx/login.php"
+  , "url": "http://support.clean-mx.de/clean-mx/xmlviruses.php"
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains related to malware"
   , "tags": ["malware websites list and Threatscape"]
-  , "nodes": []
+  , "nodes": ["malware","attackerAsset","address","addressRange","DNSName","port","ip"]
   , "category": "blacklists"
-  , "priority": "medium"
+  , "priority": "done"
   },
   {
     "name":"URL blacklist dot com"
