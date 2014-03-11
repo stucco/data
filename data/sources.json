@@ -11,6 +11,17 @@
   , "priority": "medium"
   }
 , {
+    "name": "Metasploit"
+  , "url": "https://github.com/stucco/exogenous-data-ms"
+  , "location": "ex"
+  , "type": "csv"
+  , "info": "https://github.com/stucco/exogenous-data-ms"
+  , "description": "Table of metasploit modules info"
+  , "categories": ["vulnerabilities","exploits"]
+  , "nodes": []
+  , "priority": "done"
+  }
+, {
     "name": "Symantec Security Response"
   , "url": "http://www.symantec.com/connect/item-feeds/blog/2261/feed/all/en"
   , "location": "ex"
@@ -51,7 +62,7 @@
   , "description": "CVE International in scope and free for public use, CVE is a dictionary of publicly known information security vulnerabilities and exposures. CVE's common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services."
   , "categories": ["vulnerability list"]
   , "nodes": []
-  , "priority": "medium"
+  , "priority": "done"
   }
 , {
     "name": "National Vulnerability Database"
@@ -61,7 +72,7 @@
   , "description": "NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. NVD includes databases of security checklists, security related software flaws, misconfigurations, product names, and impact metrics. "
   , "categories": ["vulnerability list"]
   , "nodes": []
-  , "priority": "medium"
+  , "priority": "done"
   }
 , {
     "name": "NVD CVE Updates"
@@ -72,7 +83,7 @@
   , "description": "This feed provides information on all recent CVE vulnerabilities. The advantage is that you learn about new CVE vulnerabilities as soon as possible. "
   , "categories": ["vulnerability list"]
   , "nodes": []
-  , "priority": "medium"
+  , "priority": "done"
   }
 , {
     "name": "NVD CVE Analyzed Updates"
@@ -83,7 +94,7 @@
   , "description": "This feed provides only fully analyzed CVE vulnerabilities. The advantage is that we are able to provide vulnerable product names in the title. "
   , "categories": ["vulnerability list"]
   , "nodes": []
-  , "priority": "medium"
+  , "priority": "done"
   }
 , {
     "name": "NVD Official Vendor Statements on CVE Vulnerabilities"
@@ -267,7 +278,7 @@
   , "description": "IP GeoLocation"
   , "categories": ["geolocation"]
   , "nodes": []
-  , "priority": "medium"
+  , "priority": "done"
   }
 , {
     "name": "Microsoft Comprehensive Security Alerts"
@@ -507,7 +518,7 @@
   , "description": " The Common Platform Enumeration (CPE) is a dictionary of common IT systems, platforms, and packages encoded in a standardized naming format that is suitable for machine interpretation and processing."
   , "categories": ["platform list"]
   , "nodes": []
-  , "priority": "medium"
+  , "priority": "done"
   }
 , {
     "name": "First Common Vulnerability Scoring System"
@@ -882,13 +893,13 @@
   }
 , {
     "name":"Clean MX realtime database"
-  , "url": "http://support.clean-mx.de/clean-mx/login.php"
+  , "url": "http://support.clean-mx.de/clean-mx/xmlviruses.php"
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains related to malware"
   , "categories": ["malware websites list and Threatscape"]
   , "nodes": []
-  , "priority": "medium"
+  , "priority": "done"
   }
 , {
     "name":"Security Week"
