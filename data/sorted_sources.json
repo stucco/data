@@ -1170,18 +1170,7 @@
     "name": "Malicious IP Search"
   , "url": "https://www.google.com/cse/home?cx=011750002002865445766:y5klxdomj78"
   , "location": "ex"
-  , "type": "atom"
-  , "description": "Google custom search, also includes links to several tools and blacklists"
-  , "tags": ["blacklists"]
-  , "nodes": []
-  , "category": "blacklist"
-  , "priority": "medium"
-  },
-  {
-    "name": "Malicious IP Search"
-  , "url": "https://www.google.com/cse/home?cx=011750002002865445766:y5klxdomj78"
-  , "location": "ex"
-  , "type": "atom"
+  , "type": "web"
   , "description": "Google custom search, also includes links to several tools and blacklists"
   , "tags": ["blacklists"]
   , "nodes": []
