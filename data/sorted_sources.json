@@ -24,6 +24,17 @@
   , "priority": "done"
   },
   {
+    "name": "Exploit DB"
+  , "url": "http://www.exploit-db.com/"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "'An ultimate archive of exploits and vulnerable software.'  Includes downloadable archive, and RSS feed."
+  , "tags": ["exploit list"]
+  , "nodes": ["vulnerability","malware"]
+  , "category": "malware"
+  , "priority": "medium"
+  },
+  {
     "name": "National Vulnerability Database"
   , "url": "https://nvd.nist.gov/home.cfm"
   , "location": "ex"
@@ -270,7 +281,7 @@
   , "url": "http://www.sophos.com/en-us/rss/threats/latest-adware-and-puas.xml"
   , "type": "RSS"
   , "description": "A list of known and potentially unwanted applications published by Sophos."
-  , "tags": ["risks"]
+  , "tags": ["risks","malware"]
   , "nodes": []
   , "category": "malware"
   , "priority": "low"
@@ -283,7 +294,7 @@
   , "description": "Lists of benign but potentially vulnerable applications published by Sophos."
   , "tags": ["risks"]
   , "nodes": []
-  , "category": "malware"
+  , "category": "vulnerabilities"
   , "priority": "low"
   },
   {
@@ -296,6 +307,17 @@
   , "nodes": []
   , "category": "blacklists"
   , "priority": "medium"
+  },
+  {
+    "name":"Malware Domain List"
+  , "url": "http://www.malwaredomainlist.com/mdl.php"
+  , "location": "ex"
+  , "type":"web"
+  , "description":"table of malware-related domains.  (rss available, but does not include 'reverse' field)"
+  , "tags": ["malware websites list","malware","blacklist"]
+  , "nodes": []
+  , "category": "blacklists"
+  , "priority": "high"
   },
   {
     "name":"Malware Domains"
@@ -369,7 +391,18 @@
   , "location": "ex"
   , "type":"file"
   , "description":"list of domains related to malware"
-  , "tags": ["malware websites list and Threatscape"]
+  , "tags": ["malware"]
+  , "nodes": ["malware","attackerAsset","address","addressRange","DNSName","port","ip"]
+  , "category": "blacklists"
+  , "priority": "done"
+  },
+  {
+    "name":"Malware Blacklist"
+  , "url": "http://www.malwareblacklist.com/showMDL.php"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"list of malware domains, generated from honeypot data.  Includes URL, registrar, IP, ASN, and hosting"
+  , "tags": ["malware"]
   , "nodes": ["malware","attackerAsset","address","addressRange","DNSName","port","ip"]
   , "category": "blacklists"
   , "priority": "done"
@@ -425,19 +458,64 @@
   , "type": "API"
   , "info": "https://www.virustotal.com/documentation/public-api/"
   , "description": "VirusTotal, a subsidiary of Google, is a free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners. At the same time, it may be used as a means to detect false positives, i.e. innocuous resources detected as malicious by one or more scanners."
-  , "tags": ["security tools", "malware"]
+  , "tags": ["security tools","malware","malware dynamic analysis"]
   , "nodes": ["malware"]
   , "category": "apis_and_resources"
   , "priority": "medium"
   },
   {
+    "name": "malwr"
+  , "url": "https://malwr.com/"
+  , "location": "ex"
+  , "type": "API"
+  , "info": "https://www.virustotal.com/documentation/public-api/"
+  , "description": "an online service that analyzes malware samples"
+  , "tags": ["security tools","malware","malware dynamic analysis"]
+  , "nodes": ["malware"]
+  , "category": "apis_and_resources"
+  , "priority": "medium"
+  },
+  {
+    "name": "VX Vault"
+  , "url": "http://vxvault.siri-urz.net/ViriList.php"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "Includes MD5s, domains, IPs, file information, and links to their samples (account needed)"
+  , "tags": ["malware","malware static analysis","blacklist"]
+  , "nodes": ["malware"]
+  , "category": "apis_and_resources"
+  , "priority": "medium"
+  },
+  {
+    "name": "malc0de"
+  , "url": "http://malc0de.com/rss"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "automated malware analysis system, associates malware samples with domains and related info"
+  , "tags": ["malware","malware dynamic analysis","blacklist"]
+  , "nodes": ["malware","DNSName","IP"]
+  , "category": "apis_and_resources"
+  , "priority": "high"
+  },
+  {
     "name": "Threat Expert"
-  , "url": "http://www.threatexpert.com"
+  , "url": "http://www.threatexpert.com/reports.aspx?sl=1"
   , "location": "ex"
   , "type": "web"
   , "description": "advanced automated threat analysis system designed to analyze and report the behavior of computer viruses, worms, trojans, adware, spyware, and other security-related risks in a fully automated mode. In only a few minutes ThreatExpert can process a sample and generate a highly detailed threat report with the level of technical detail that matches or exceeds antivirus industry standards such as those normally found in online virus encyclopedias."
-  , "tags": ["threat analysis","malware"]
-  , "nodes": []
+  , "tags": ["malware","malware dynamic analysis"]
+  , "nodes": ["malware"]
+  , "category": "apis_and_resources"
+  , "priority": "high"
+  },
+  {
+    "name": "URL Query"
+  , "url": "http://urlquery.net/index.php"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "'urlQuery.net is a service for detecting and analyzing web-based malware. It provides detailed information about the activities a browser does while visiting a site and presents the information for further analysis.'  Includes reports on many benign domains.   'The API is currently in closed beta testing.'"
+  , "tags": ["malware","malware analysis","blacklist"]
+  , "nodes": ["malware","DNSName"]
   , "category": "apis_and_resources"
   , "priority": "medium"
   },
@@ -487,14 +565,14 @@
   },
   {
     "name": "The Emerging Threats Open Source Community"
-  , "url": "http://www.emergingthreats.net/open-source/open-source-overview/"
+  , "url": "http://rules.emergingthreats.net/"
   , "location": "ex"
   , "type": "web"
   , "description": "200,000 active users sharing free IDS rulesets on a daily basis.  It’s a fast-moving, frequently updated group, with users who are experts in detecting and preventing malware attacks on Snort, Suricata, BSD operating systems, and many other IDS and IPS platforms."
-  , "tags": ["IDS rulesets"]
+  , "tags": ["IDS rulesets, blacklist"]
   , "nodes": []
-  , "category": "apis_and_resources"
-  , "priority": "medium"
+  , "category": "blacklists"
+  , "priority": "high"
   },
   {
     "name": "OpenIOC - Indicators of Compromise"
@@ -1009,6 +1087,138 @@
   , "tags": ["Vendor News Site"]
   , "nodes": []
   , "category": "news_articles"
+  , "priority": "medium"
+  },
+  {
+    "name": "CIF v2 rules"
+  , "url": "https://github.com/csirtgadgets/massive-octo-spice/tree/master/src/rules"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "Black/white/grey lists that feed into CIF"
+  , "tags": ["blacklist","whitelist","reputation"]
+  , "nodes": []
+  , "category": "blacklists"
+  , "priority": "medium"
+  },
+  {
+    "name": "CIF v1 rules"
+  , "url": "https://github.com/collectiveintel/cif-v1/tree/master/cif-smrt/rules/etc"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "Black/white/grey lists that feed into CIF"
+  , "tags": ["blacklist","whitelist","reputation"]
+  , "nodes": []
+  , "category": "blacklists"
+  , "priority": "medium"
+  },
+  {
+    "name": "CIF potential new sources"
+  , "url": "https://code.google.com/p/collective-intelligence-framework/wiki/NewFeedSources"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "Black/white/grey lists that feed into CIF - list of potential new sources, not yet added"
+  , "tags": ["blacklist","whitelist","reputation"]
+  , "nodes": []
+  , "category": "blacklists"
+  , "priority": "medium"
+  },
+  {
+    "name": "Packetstorm Exploit List"
+  , "url": "http://rss.packetstormsecurity.com/files/tags/exploit/"
+  , "location": "ex"
+  , "type": "rss"
+  , "description": "Collection of exploits and related info"
+  , "tags": ["exploits","vulnerabilities"]
+  , "nodes": []
+  , "category": "vulnerabilities"
+  , "priority": "medium"
+  },
+  {
+    "name": "Packetstorm News"
+  , "url": "http://rss.packetstormsecurity.com/news/"
+  , "location": "ex"
+  , "type": "rss"
+  , "description": "Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers"
+  , "tags": ["news"]
+  , "nodes": []
+  , "category": "news"
+  , "priority": "medium"
+  },
+  {
+    "name": "malwageddon"
+  , "url": "http://malwageddon.blogspot.com/feeds/posts/default"
+  , "location": "ex"
+  , "type": "atom"
+  , "description": "'Malware Analysis: The Final Frontier' - Malware analysis blog"
+  , "tags": ["malware"]
+  , "nodes": []
+  , "category": "malware"
+  , "priority": "medium"
+  },
+  {
+    "name": "thegoldenmessenger"
+  , "url": "http://thegoldenmessenger.blogspot.com/feeds/posts/default"
+  , "location": "ex"
+  , "type": "atom"
+  , "description": "'Analyzing Unknown Malware' - Malware analysis blog"
+  , "tags": ["malware"]
+  , "nodes": []
+  , "category": "malware"
+  , "priority": "medium"
+  },
+  {
+    "name": "Malicious IP Search"
+  , "url": "https://www.google.com/cse/home?cx=011750002002865445766:y5klxdomj78"
+  , "location": "ex"
+  , "type": "atom"
+  , "description": "Google custom search, also includes links to several tools and blacklists"
+  , "tags": ["blacklists"]
+  , "nodes": []
+  , "category": "blacklist"
+  , "priority": "medium"
+  },
+  {
+    "name": "Malicious IP Search"
+  , "url": "https://www.google.com/cse/home?cx=011750002002865445766:y5klxdomj78"
+  , "location": "ex"
+  , "type": "atom"
+  , "description": "Google custom search, also includes links to several tools and blacklists"
+  , "tags": ["blacklists"]
+  , "nodes": []
+  , "category": "blacklist"
+  , "priority": "medium"
+  },
+  {
+    "name": "Malware Sample Sources for Researchers"
+  , "url": "http://zeltser.com/combating-malicious-software/malware-sample-sources.html"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "collection of links to malware samples collections"
+  , "tags": ["malware","blacklists"]
+  , "nodes": []
+  , "category": "malware"
+  , "priority": "medium"
+  },
+  {
+    "name": "Contagio - links and resources"
+  , "url": "http://contagiodump.blogspot.com/2010/11/links-and-resources-for-malware-samples.html"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "large list of links to other malware samples repositories.  (some are outdated)"
+  , "tags": ["malware","blacklists"]
+  , "nodes": []
+  , "category": "malware"
+  , "priority": "medium"
+  },
+  {
+    "name": "Contagio"
+  , "url": "http://contagiodump.blogspot.com/"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "malware analysis blog, includes many samples, pcaps, and other info.  Includes much information about exploit packs."
+  , "tags": ["malware","blacklists"]
+  , "nodes": []
+  , "category": "malware"
   , "priority": "medium"
   }
 ]
