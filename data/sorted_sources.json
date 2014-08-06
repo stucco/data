@@ -1098,7 +1098,7 @@
   , "tags": ["blacklist","whitelist","reputation"]
   , "nodes": []
   , "category": "blacklists"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "CIF v1 rules"
@@ -1109,7 +1109,7 @@
   , "tags": ["blacklist","whitelist","reputation"]
   , "nodes": []
   , "category": "blacklists"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "CIF potential new sources"
@@ -1120,7 +1120,7 @@
   , "tags": ["blacklist","whitelist","reputation"]
   , "nodes": []
   , "category": "blacklists"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Packetstorm Exploit List"
@@ -1156,7 +1156,7 @@
   , "priority": "medium"
   },
   {
-    "name": "thegoldenmessenger"
+    "name": "the golden messenger"
   , "url": "http://thegoldenmessenger.blogspot.com/feeds/posts/default"
   , "location": "ex"
   , "type": "atom"
@@ -1175,7 +1175,7 @@
   , "tags": ["blacklists"]
   , "nodes": []
   , "category": "blacklist"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Malware Sample Sources for Researchers"
@@ -1186,7 +1186,7 @@
   , "tags": ["malware","blacklists"]
   , "nodes": []
   , "category": "malware"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Contagio - links and resources"
@@ -1197,7 +1197,7 @@
   , "tags": ["malware","blacklists"]
   , "nodes": []
   , "category": "malware"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Contagio"
