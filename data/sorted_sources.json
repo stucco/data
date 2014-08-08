@@ -1178,14 +1178,25 @@
   , "priority": "low"
   },
   {
-    "name": "Malware Sample Sources for Researchers"
+    "name": "zeltser - Malware Sample Sources for Researchers"
   , "url": "http://zeltser.com/combating-malicious-software/malware-sample-sources.html"
   , "location": "ex"
   , "type": "web"
   , "description": "collection of links to malware samples collections"
-  , "tags": ["malware","blacklist"]
+  , "tags": ["malware"]
   , "nodes": []
   , "category": "malware"
+  , "priority": "low"
+  },
+  {
+    "name": "zeltser - Malicious IP lists"
+  , "url": "http://zeltser.com/combating-malicious-software/malicious-ip-blocklists.html"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "collection of malicious IP lists from various sources"
+  , "tags": ["blacklist"]
+  , "nodes": []
+  , "category": "blacklist"
   , "priority": "low"
   },
   {
@@ -1206,6 +1217,17 @@
   , "type": "web"
   , "description": "malware analysis blog, includes many samples, pcaps, and other info.  Includes much information about exploit packs."
   , "tags": ["malware","blacklist"]
+  , "nodes": []
+  , "category": "malware"
+  , "priority": "medium"
+  },
+  {
+    "name": "Malwarebytes forum - Newest Malware Threats"
+  , "url": "https://forums.malwarebytes.org/index.php?/forum/51-newest-malware-threats/"
+  , "location": "ex"
+  , "type": "web"
+  , "description": "Newest malware samples, submitted by forum users."
+  , "tags": ["malware"]
   , "nodes": []
   , "category": "malware"
   , "priority": "medium"
