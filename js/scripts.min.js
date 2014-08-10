@@ -3,6 +3,7 @@
 $().ready(function () {
   'use strict';
 
+  //see parsers documentation: http://mottie.github.io/tablesorter/docs/example-parsers.html
   //parser for the "status" column
   $.tablesorter.addParser({
     // set a unique id
@@ -22,6 +23,12 @@ $().ready(function () {
     },
     // set type, either numeric or text
     type: 'numeric'
+  });
+
+  $(function() {
+    $("table").tablesorter({
+    headers: { 4: { sorter: 'status' } }
+    });
   });
 
   var parseRow = function (value) {
