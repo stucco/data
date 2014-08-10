@@ -1,28 +1,35 @@
 /*global browser:true, $:true, jquery:true */
 
-//parser for the "status" column
-$.tablesorter.addParser({
-  // set a unique id
-  id: 'status',
-  is: function(s, table, cell) {
-    // return false so this parser is not auto detected
-    return false;
-  },
-  format: function(s, table, cell, cellIndex) {
-    // format your data for normalization
-    return s.toLowerCase()
-      .replace(/low/,4)
-      .replace(/medium/,3)
-      .replace(/high/,2)
-      .replace(/pending/,1)
-      .replace(/done/,0);
-  },
-  // set type, either numeric or text
-  type: 'numeric'
-});
-
 $().ready(function () {
   'use strict';
+
+  //see parsers documentation: http://mottie.github.io/tablesorter/docs/example-parsers.html
+  //parser for the "status" column
+  $.tablesorter.addParser({
+    // set a unique id
+    id: 'status',
+    is: function(s, table, cell) {
+      // return false so this parser is not auto detected
+      return false;
+    },
+    format: function(s, table, cell, cellIndex) {
+      // format your data for normalization
+      return s.toLowerCase()
+        .replace(/low/,4)
+        .replace(/medium/,3)
+        .replace(/high/,2)
+        .replace(/pending/,1)
+        .replace(/done/,0);
+    },
+    // set type, either numeric or text
+    type: 'numeric'
+  });
+
+  $(function() {
+    $("table").tablesorter({
+    headers: { 4: { sorter: 'status' } }
+    });
+  });
 
   var parseRow = function (value) {
     var name = value.name || ''
