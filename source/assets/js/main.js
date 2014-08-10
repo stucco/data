@@ -25,12 +25,6 @@ $().ready(function () {
     type: 'numeric'
   });
 
-  $(function() {
-    $("table").tablesorter({
-    headers: { 4: { sorter: 'status' } }
-    });
-  });
-
   var parseRow = function (value) {
     var name = value.name || ''
       , url = value.url || ''
@@ -78,7 +72,7 @@ $().ready(function () {
     // set up table sorter, but disable the third column
     var sortOrder = [[2,0], [0,0]];
     $('#datasource-table').tablesorter({
-      headers: {3: {sorter: false}}
+      headers: {3: {sorter: false}, 4: { sorter: 'status' }}
     , cancelSelection: true
     , sortList: sortOrder
     });
