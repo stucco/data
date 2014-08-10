@@ -331,6 +331,17 @@
   , "priority": "medium"
   },
   {
+    "name":"Malware Domains - additional lists"
+  , "url": "http://www.malwaredomains.com/wordpress/?page_id=66"
+  , "location": "ex"
+  , "type":"file"
+  , "description":"additional lists of domains that are related to malware"
+  , "tags": ["malware websites list","malware","blacklist"]
+  , "nodes": []
+  , "category": "blacklist"
+  , "priority": "low"
+  },
+  {
     "name":"ZeuS domain blocklist"
   , "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
   , "location": "ex"
@@ -1230,6 +1241,17 @@
   , "tags": ["malware"]
   , "nodes": []
   , "category": "malware"
+  , "priority": "medium"
+  },
+  {
+    "name": "xorl %eax, %eax"
+  , "url": "http://xorl.wordpress.com/feed/"
+  , "location": "ex"
+  , "type": "rss"
+  , "description": "Blog with detailed analysis of many vulnerabilities"
+  , "tags": ["vulnerabilities","articles"]
+  , "nodes": []
+  , "category": "vulnerabilities"
   , "priority": "medium"
   }
 ]
