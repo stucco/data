@@ -1253,5 +1253,16 @@
   , "nodes": []
   , "category": "vulnerabilities"
   , "priority": "medium"
+  },
+  {
+    "name": "Kaspersky security matters blog"
+  , "url": "http://eugene.kaspersky.com/category/security-matters/"
+  , "location": "ex"
+  , "type": "rss"
+  , "description": "Eugene Kaspersky security blog"
+  , "tags": ["news","articles"]
+  , "nodes": []
+  , "category": "news"
+  , "priority": "medium"
   }
 ]
