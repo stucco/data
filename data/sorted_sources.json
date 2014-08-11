@@ -238,7 +238,7 @@
   , "tags": ["malware"]
   , "nodes": []
   , "category": "malware"
-  , "priority": "high"
+  , "priority": "pending"
   },
   {
     "name": "Sophos Latest suspicious behavior and file alerts"
@@ -262,7 +262,7 @@
   , "tags": ["malware"]
   , "nodes": ["malware"]
   , "category": "malware"
-  , "priority": "high"
+  , "priority": "pending"
   },
   {
     "name": "Offensive Computing"
