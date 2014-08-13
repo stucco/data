@@ -1264,5 +1264,16 @@
   , "nodes": []
   , "category": "news"
   , "priority": "medium"
+  },
+  {
+    "name": "scans.io Internet-Wide Scan Data Repository"
+  , "url": "scans.io"
+  , "location": "ex"
+  , "type": "file"
+  , "description": "Datasets from various internet-wide scans."
+  , "tags": ["tools"]
+  , "nodes": ["address","DNSName","port","ip"]
+  , "category": "APIs and resources"
+  , "priority": "high"
   }
 ]
