@@ -5,7 +5,7 @@
   , "location": "ex"
   , "type": "web"
   , "description": "CVE International in scope and free for public use, CVE is a dictionary of publicly known information security vulnerabilities and exposures. CVE's common identifiers enable data exchange between security products and provide a baseline index point for evaluating coverage of tools and services."
-  , "tags": ["vulnerability list"]
+  , "tags": ["vulnerability database"]
   , "investigating": "ORNL"
   , "nodes": ["vulnerability"]
   , "category": "vulnerabilities"
@@ -17,7 +17,7 @@
   , "location": "ex"
   , "type": "file"
   , "description": "Table of metasploit modules info"
-  , "tags": ["exploit list"]
+  , "tags": ["exploits"]
   , "investigating": "ORNL"
   , "nodes": ["vulnerability","malware"]
   , "category": "malware"
@@ -29,7 +29,7 @@
   , "location": "ex"
   , "type": "web"
   , "description": "'An ultimate archive of exploits and vulnerable software.'  Includes downloadable archive, and RSS feed."
-  , "tags": ["exploit list"]
+  , "tags": ["exploits"]
   , "nodes": ["vulnerability","malware"]
   , "category": "malware"
   , "priority": "medium"
@@ -40,7 +40,7 @@
   , "location": "ex"
   , "type": "web"
   , "description": "NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. NVD includes databases of security checklists, security related software flaws, misconfigurations, product names, and impact metrics. "
-  , "tags": ["vulnerability list"]
+  , "tags": ["vulnerability database"]
   , "investigating": "ORNL"
   , "nodes": ["vulnerability"]
   , "category": "vulnerabilities"
@@ -52,7 +52,7 @@
   , "location": "ex"
   , "type": "web"
   , "description": "World Laboratory of Bugtraq 2 is a huge collection of information on data communications safety. Its main objective is to inform about errors in various applications."
-  , "tags": ["computer vulnerabilities","malware","exploits"]
+  , "tags": ["vulnerabilities","malware","exploits"]
   , "nodes": ["vulnerability","malware"]
   , "category": "vulnerabilities"
   , "priority": "low"
@@ -63,7 +63,7 @@
   , "location": "ex"
   , "type": "web"
   , "description": "OSVDB's goal is to provide accurate, detailed, current, and unbiased technical security information. Website has a twitter feed, news feed, top viewed vulnerabilites feed, top blogged vulnerabilities feed."
-  , "tags": ["vulnerabilities database"]
+  , "tags": ["vulnerability database"]
   , "investigating": "ORNL"
   , "nodes": ["vulnerability"]
   , "category": "vulnerabilities"
@@ -75,7 +75,7 @@
   , "location": "ex"
   , "type": "web"
   , "description": "Easy to use web interface to CVE vulnerability data. You can browse for vendors, products and versions and view cve entries, vulnerabilities, related to them. You can view statistics about vendors, products and versions of products. CVE details are displayed in a single, easy to use page, see a sample nicely outlines CVSS score and components of it (I think CVSS seems useless) products affected, by type (for example, application), vendor, product, version, … related metasploit modules.  It links to tweets about this vulnerability! searches twitter for it I think… similarly for youtube and google. can generate a customized rss feed."
-  , "tags": ["vulnerabilities database"]
+  , "tags": ["vulnerability database"]
   , "nodes": ["vulnerability"]
   , "category": "vulnerabilities"
   , "priority": "low"
@@ -86,7 +86,7 @@
   , "location": "ex"
   , "type":"web"
   , "description":"Database of security advisories updated daily, given an id number, release date, comments, a popularity score, criticality level, etc... Also has CVE references. "
-  , "tags": ["Vulnerability Database"]
+  , "tags": ["vulnerability database"]
   , "nodes": ["vulnerability"]
   , "category": "vulnerabilities"
   , "priority": "low"
@@ -97,7 +97,7 @@
   , "location": "ex"
   , "type":"web"
   , "description":"High level (coarser) vulnerability database.  For example, many CVE entries are rolled into one entry here"
-  , "tags": ["Vulnerability Database"]
+  , "tags": ["vulnerability database"]
   , "nodes": ["vulnerability"]
   , "category": "vulnerabilities"
   , "priority": "low"
