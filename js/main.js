@@ -64,7 +64,7 @@ $().ready(function () {
   $('[data-toggle="tooltip"]').tooltip();
   
   // async load table data and reorder on first and second columns
-  $.getJSON('data/sorted_sources.json', function (data) {
+  $.getJSON('data/sources.json', function (data) {
     $.each(data, function (index, row) {
       $('#datasource-table tbody').append(parseRow(row));
     });
