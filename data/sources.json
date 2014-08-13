@@ -1275,5 +1275,16 @@
   , "nodes": ["address","DNSName","port","ip"]
   , "category": "APIs and resources"
   , "priority": "high"
+  },
+  {
+    "name": "Internet Census 2012"
+  , "url": "http://internetcensus2012.bitbucket.org/download.html"
+  , "location": "ex"
+  , "type": "file"
+  , "description": "Several massive datasets from the 2012 'Internet Census'"
+  , "tags": ["tools"]
+  , "nodes": ["address","DNSName","port","ip"]
+  , "category": "APIs and resources"
+  , "priority": "medium"
   }
 ]
