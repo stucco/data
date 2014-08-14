@@ -1286,5 +1286,16 @@
   , "nodes": ["address","DNSName","port","ip"]
   , "category": "APIs and resources"
   , "priority": "medium"
+  },
+  {
+    "name": "Farsight Security DNS Database (DNSDB)"
+  , "url": "https://www.farsightsecurity.com/Resources/"
+  , "location": "ex"
+  , "type": "API"
+  , "description": "DNS database and related resources/programs/APIs"
+  , "tags": ["tools"]
+  , "nodes": ["address","DNSName","port","ip"]
+  , "category": "APIs and resources"
+  , "priority": "medium"
   }
 ]
