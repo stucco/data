@@ -83,7 +83,8 @@ module.exports = function (grunt) {
     },
     'gh-pages': {
       options: {
-        base: 'deploy'
+        base: 'deploy',
+        message: 'Auto-generated gh-pages update'
       },
       src: ['**']
     }
