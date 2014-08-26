@@ -168,7 +168,7 @@
   , "tags": ["vulnerability list"]
   , "nodes": ["vulnerability"]
   , "category": "vulnerabilities"
-  , "priority": "low"
+  , "priority": "pending"
   },
   {
     "name": "US-CERT National Cyber Awareness System Alerts"
