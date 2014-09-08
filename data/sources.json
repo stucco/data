@@ -411,12 +411,12 @@
     "name":"Malware Blacklist"
   , "url": "http://www.malwareblacklist.com/showMDL.php"
   , "location": "ex"
-  , "type":"file"
+  , "type":"web"
   , "description":"list of malware domains, generated from honeypot data.  Includes URL, registrar, IP, ASN, and hosting"
   , "tags": ["malware"]
   , "nodes": ["malware","attackerAsset","address","addressRange","DNSName","port","ip"]
   , "category": "blacklist"
-  , "priority": "done"
+  , "priority": "medium"
   },
   {
     "name":"URL blacklist dot com"
