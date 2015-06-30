@@ -726,11 +726,11 @@
   , "location": "ex"
   , "type": "RSS"
   , "info": "https://isc.sans.edu/"
-  , "description": "Handler's diary of security incidents"
+  , "description": "SANS Internet Storm Center - Latest Diaries.  "
   , "tags": ["risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "high"
   },
   {
     "name": "Sophos Naked Security"
@@ -742,7 +742,7 @@
   , "tags": ["security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Krebs on Security"
@@ -750,11 +750,11 @@
   , "location": "ex"
   , "type": "Atom"
   , "info": "https://krebsonsecurity.com/"
-  , "description": "Brian Krebs worked as a reporter for The Washington Post from 1995 to 2009, authoring more than 1,300 blog posts for the Security Fix blog, as well as hundreds of stories for washingtonpost.com and The Washington Post newspaper."
+  , "description": "In-depth security news and investigation from Brian Krebs.  Coverage of specific breaches and incidents, as well as malware and vulnerabilities."
   , "tags": ["security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "high"
   },
   {
     "name": "F-Secure News from the Lab"
@@ -762,11 +762,11 @@
   , "location": "ex"
   , "type": "RSS"
   , "info": "http://www.f-secure.com/weblog/"
-  , "description": "Welcome to the blog of F-Secure Labs - the security center of F-Secure - maintained by the personnel responsible for analyzing virus, phishing, spyware, and spam attacks."
+  , "description": "Weblog of F-Secure Antivirus Research Team.  Covers various topics, including malware and vulnerabilities."
   , "tags": ["security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "high"
   },
   {
     "name": "Team Cymru Research"
@@ -778,7 +778,8 @@
   , "tags": ["security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "low"
+  , "comments": "This RSS feed includes article links in a non-standard way."
   },
   {
     "name": "Spamhaus News"
@@ -845,7 +846,7 @@
   , "tags": ["security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Stack Exchange Security Blog"
@@ -889,7 +890,7 @@
   , "tags": ["security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Forbes: Firewall"
@@ -933,7 +934,7 @@
   , "tags": ["blog","security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "slashdot"
@@ -966,29 +967,29 @@
   , "tags": ["news","security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name":"Security Street"
-  , "url": "https://community.rapid7.com/welcome"
+  , "url": "https://community.rapid7.com/view-browse-feed.jspa?filterID=all~objecttype~objecttype[blogpost]&browseViewID=content"
   , "location": "ex"
   , "type":"file"
-  , "description":"chat forum for security news"
+  , "description":"Recent content in Rapid7 Community.  Contains some news on metasploit and other products, some news on new vulnerabilities, some malware news, etc."
   , "tags": ["chat forum for news","security news","risks","general","forum"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "high"
   },
   {
     "name":"Threat Post"
   , "url": "http://threatpost.com/feed"
   , "location": "ex"
   , "type":"rss"
-  , "description":"The Kaspersky Lab Security News Service"
+  , "description":"The Kaspersky Lab Security News Service.  Contains many articles on malware and vulnerabilities."
   , "tags": ["threats","security news","risks","general"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "high"
   },
   {
     "name": "Malware Bytes"
@@ -1072,11 +1073,11 @@
   , "url": "http://feeds.feedburner.com/SecurityIntelligence"
   , "location": "ex"
   , "type": "web"
-  , "description": "IT services from IBM"
+  , "description": "Analysis and Insight for Information Security Professionals."
   , "tags": ["blog", "news"]
   , "nodes": []
   , "category": "articles"
-  , "priority": "medium"
+  , "priority": "low"
   },
   {
     "name": "Dark Reading"
